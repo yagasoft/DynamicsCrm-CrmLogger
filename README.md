@@ -19,7 +19,12 @@ A CRM solution that provides a lot of details when logging from plugins, web-ser
 
 ### Guide
 
-The following is a sample of a plugin log. I will post a complete guide soon.
+  + Set the log level in the Generic Configuration entity, on the 'Logging' form
+  + Go to the Log entity view to view the logs
+
+I will post a complete guide soon.
+
+The following is a sample of how to log in a plugin.
 
 ```csharp
 public void Execute(IServiceProvider serviceProvider)
@@ -71,6 +76,7 @@ private void Test(CrmLog log)
 	}
 }
 ```
+
 CrmLog class can be found in either Common.cs in the DynamicsCrm-Libraries repository (for plugins), or LinkDev.Libraries on NuGet (for apps).
 
 ### Dependencies
