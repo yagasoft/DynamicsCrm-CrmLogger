@@ -1,0 +1,1567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>solution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="10:CustomLabel,ldv_ldv_logentry_ldv_logentry" xml:space="preserve">
+    <value />
+    <comment>ldv_logentry CustomLabel for EntityRelationship 'ldv_ldv_logentry_ldv_logentry'</comment>
+  </data>
+  <data name="10:CustomLabel,ldv_ldv_logentry_ldv_log_ExceptionLogEntry" xml:space="preserve">
+    <value />
+    <comment>ldv_log CustomLabel for EntityRelationship 'ldv_ldv_logentry_ldv_log_ExceptionLogEntry'</comment>
+  </data>
+  <data name="10:CustomLabel,ldv_ldv_log_ldv_logentry" xml:space="preserve">
+    <value />
+    <comment>ldv_logentry CustomLabel for EntityRelationship 'ldv_ldv_log_ldv_logentry'</comment>
+  </data>
+  <data name="10:CustomLabel,ldv_systemuser_ldv_logentry_User" xml:space="preserve">
+    <value />
+    <comment>ldv_logentry CustomLabel for EntityRelationship 'ldv_systemuser_ldv_logentry_User'</comment>
+  </data>
+  <data name="10:CustomLabel,ldv_systemuser_ldv_log_User" xml:space="preserve">
+    <value />
+    <comment>ldv_log CustomLabel for EntityRelationship 'ldv_systemuser_ldv_log_User'</comment>
+  </data>
+  <data name="10:Description,business_unit_ldv_log" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>ldv_log Description for EntityRelationship 'business_unit_ldv_log'</comment>
+  </data>
+  <data name="10:Description,business_unit_ldv_logentry" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>ldv_logentry Description for EntityRelationship 'business_unit_ldv_logentry'</comment>
+  </data>
+  <data name="10:Description,ldv_ldv_logentry_ldv_logentry" xml:space="preserve">
+    <value>Unique identifier for Log Entry associated with Log Entry.</value>
+    <comment>ldv_logentry Description for EntityRelationship 'ldv_ldv_logentry_ldv_logentry'</comment>
+  </data>
+  <data name="10:Description,ldv_ldv_logentry_ldv_log_ExceptionLogEntry" xml:space="preserve">
+    <value />
+    <comment>ldv_log Description for EntityRelationship 'ldv_ldv_logentry_ldv_log_ExceptionLogEntry'</comment>
+  </data>
+  <data name="10:Description,ldv_ldv_log_ldv_logentry" xml:space="preserve">
+    <value>Unique identifier for Log associated with Log Entry.</value>
+    <comment>ldv_logentry Description for EntityRelationship 'ldv_ldv_log_ldv_logentry'</comment>
+  </data>
+  <data name="10:Description,ldv_systemuser_ldv_logentry_User" xml:space="preserve">
+    <value />
+    <comment>ldv_logentry Description for EntityRelationship 'ldv_systemuser_ldv_logentry_User'</comment>
+  </data>
+  <data name="10:Description,ldv_systemuser_ldv_log_User" xml:space="preserve">
+    <value />
+    <comment>ldv_log Description for EntityRelationship 'ldv_systemuser_ldv_log_User'</comment>
+  </data>
+  <data name="10:Description,lk_ldv_logentry_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>ldv_logentry Description for EntityRelationship 'lk_ldv_logentry_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_ldv_logentry_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>ldv_logentry Description for EntityRelationship 'lk_ldv_logentry_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_ldv_log_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>ldv_log Description for EntityRelationship 'lk_ldv_log_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_ldv_log_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>ldv_log Description for EntityRelationship 'lk_ldv_log_modifiedby'</comment>
+  </data>
+  <data name="10:Description,owner_ldv_log" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>ldv_log Description for EntityRelationship 'owner_ldv_log'</comment>
+  </data>
+  <data name="10:Description,owner_ldv_logentry" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>ldv_logentry Description for EntityRelationship 'owner_ldv_logentry'</comment>
+  </data>
+  <data name="10:Description,team_ldv_log" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>ldv_log Description for EntityRelationship 'team_ldv_log'</comment>
+  </data>
+  <data name="10:Description,team_ldv_logentry" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>ldv_logentry Description for EntityRelationship 'team_ldv_logentry'</comment>
+  </data>
+  <data name="10:Description,user_ldv_log" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>ldv_log Description for EntityRelationship 'user_ldv_log'</comment>
+  </data>
+  <data name="10:Description,user_ldv_logentry" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>ldv_logentry Description for EntityRelationship 'user_ldv_logentry'</comment>
+  </data>
+  <data name="15062:Description,linkdevelopmentldv75324" xml:space="preserve">
+    <value>The default publisher for link development</value>
+    <comment> 'linkdevelopment' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,CRMLogger" xml:space="preserve">
+    <value>CRM Logger</value>
+    <comment> 'CRMLogger' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,linkdevelopmentldv75324" xml:space="preserve">
+    <value>LINK Development</value>
+    <comment> 'linkdevelopment' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,ldv_logCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'ldv_log' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'ldv_log' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'ldv_log' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentityldv_log" xml:space="preserve">
+    <value />
+    <comment> 'ldv_log' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryentityldv_logentry" xml:space="preserve">
+    <value />
+    <comment> 'ldv_logentry' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_Assembly" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_Assembly' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_CallingFunction" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_CallingFunction' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_Class" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_Class' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_EntryIndex" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_EntryIndex' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_Exception" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_Exception' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_ExceptionSource" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_ExceptionSource' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_ExceptionThrown" xml:space="preserve">
+    <value>Function threw an exception.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_ExceptionThrown' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_ExecutionDuration" xml:space="preserve">
+    <value>The time it took for the execution to finish in milliseconds.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_ExecutionDuration' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_Information" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_Information' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_InnerException" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_InnerException' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_InnerExceptionMessage" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_InnerExceptionMessage' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_InnerExceptionSource" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_InnerExceptionSource' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_InnerExceptionStackTrace" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_InnerExceptionStackTrace' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_Level" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_Level' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_LineNumber" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_LineNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_logentryId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_logentryId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_logentry_ldv_exceptionthrown" xml:space="preserve">
+    <value>Function threw an exception.</value>
+    <comment>'ldv_logentry' : Description for OptionSet 'ldv_logentry_ldv_exceptionthrown' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_logentry_ldv_level" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for OptionSet 'ldv_logentry_ldv_level' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_logentry_statecode" xml:space="preserve">
+    <value>Status of the Log Entry</value>
+    <comment>'ldv_logentry' : Description for OptionSet 'ldv_logentry_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_logentry_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Log Entry</value>
+    <comment>'ldv_logentry' : Description for OptionSet 'ldv_logentry_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_Message" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_Message' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_name' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_ParentLogEntryId" xml:space="preserve">
+    <value>Unique identifier for Log Entry associated with Log Entry.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_ParentLogEntryId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_ParentLogId" xml:space="preserve">
+    <value>Unique identifier for Log associated with Log Entry.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_ParentLogId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_RegardingName" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_RegardingName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_RegardingType" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_RegardingType' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_StackTrace" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_StackTrace' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_StartDate" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_StartDate' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryldv_User" xml:space="preserve">
+    <value />
+    <comment>'ldv_logentry' : Description for Attribute 'ldv_User' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwnerIdName" xml:space="preserve">
+    <value>Name of the owner</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwnerIdName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwnerIdType" xml:space="preserve">
+    <value>Owner Id Type</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwnerIdType' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwnerIdYomiName" xml:space="preserve">
+    <value>Yomi name of the owner</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwnerIdYomiName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentrystatecode" xml:space="preserve">
+    <value>Status of the Log Entry</value>
+    <comment>'ldv_logentry' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentrystatuscode" xml:space="preserve">
+    <value>Reason for the status of the Log Entry</value>
+    <comment>'ldv_logentry' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logentryUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'ldv_logentry' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'ldv_log' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_Assembly" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_Assembly' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_EntryClass" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_EntryClass' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_EntryFunction" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_EntryFunction' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_ExceptionLogEntry" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_ExceptionLogEntry' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_ExceptionMessage" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_ExceptionMessage' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_ExceptionThrown" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_ExceptionThrown' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_ExecutionDuration" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_ExecutionDuration' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_ExecutionEndState" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_ExecutionEndState' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_Information" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_Information' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_logId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'ldv_log' : Description for Attribute 'ldv_logId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_log_ldv_exceptionthrown" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for OptionSet 'ldv_log_ldv_exceptionthrown' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_log_ldv_executionendstate" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for OptionSet 'ldv_log_ldv_executionendstate' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_log_statecode" xml:space="preserve">
+    <value>Status of the Log</value>
+    <comment>'ldv_log' : Description for OptionSet 'ldv_log_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_log_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Log</value>
+    <comment>'ldv_log' : Description for OptionSet 'ldv_log_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'ldv_log' : Description for Attribute 'ldv_name' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_RecordURL" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_RecordURL' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_RegardingID" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_RegardingID' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_RegardingName" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_RegardingName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_RegardingType" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_RegardingType' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_SerialisedLogEntries" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_SerialisedLogEntries' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_StartDate" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_StartDate' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_Title" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_Title' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logldv_User" xml:space="preserve">
+    <value />
+    <comment>'ldv_log' : Description for Attribute 'ldv_User' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'ldv_log' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'ldv_log' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'ldv_log' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'ldv_log' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'ldv_log' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwnerIdName" xml:space="preserve">
+    <value>Name of the owner</value>
+    <comment>'ldv_log' : Description for Attribute 'OwnerIdName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwnerIdType" xml:space="preserve">
+    <value>Owner Id Type</value>
+    <comment>'ldv_log' : Description for Attribute 'OwnerIdType' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwnerIdYomiName" xml:space="preserve">
+    <value>Yomi name of the owner</value>
+    <comment>'ldv_log' : Description for Attribute 'OwnerIdYomiName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'ldv_log' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'ldv_log' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'ldv_log' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logstatecode" xml:space="preserve">
+    <value>Status of the Log</value>
+    <comment>'ldv_log' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Log</value>
+    <comment>'ldv_log' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'ldv_log' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_logUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'ldv_log' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,Log Entry{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Log Entry' : Description for systemform in Entity FormXml ID: '{37df4ed6-168d-4709-a265-23302cec1655}'</comment>
+  </data>
+  <data name="1:Description,Log Entry{53e15ee3-84d7-454d-a40a-10590556cb93}" xml:space="preserve">
+    <value>This is the form that is displayed for the CRM Mobile application.</value>
+    <comment>'Log Entry' : Description for systemform in Entity FormXml ID: '{53e15ee3-84d7-454d-a40a-10590556cb93}'</comment>
+  </data>
+  <data name="1:Description,Log{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Log' : Description for systemform in Entity FormXml ID: '{034221e2-0e42-418f-ab18-ef3a1673749b}'</comment>
+  </data>
+  <data name="1:Description,Log{70b1d35d-f829-45c2-b4b8-9c2475a01a37}" xml:space="preserve">
+    <value>This is the form that is displayed for the CRM Mobile application.</value>
+    <comment>'Log' : Description for systemform in Entity FormXml ID: '{70b1d35d-f829-45c2-b4b8-9c2475a01a37}'</comment>
+  </data>
+  <data name="1:displayname,ldv_logCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'ldv_log' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'ldv_log' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'ldv_log' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_Assembly" xml:space="preserve">
+    <value>Assembly</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_Assembly' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_CallingFunction" xml:space="preserve">
+    <value>Calling Function</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_CallingFunction' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_Class" xml:space="preserve">
+    <value>Class</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_Class' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_EntryIndex" xml:space="preserve">
+    <value>Index</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_EntryIndex' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_Exception" xml:space="preserve">
+    <value>Exception</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_Exception' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_ExceptionSource" xml:space="preserve">
+    <value>Exception Source</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_ExceptionSource' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_ExceptionThrown" xml:space="preserve">
+    <value>Exception Thrown</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_ExceptionThrown' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_ExecutionDuration" xml:space="preserve">
+    <value>Exec. Duration (ms)</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_ExecutionDuration' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_Information" xml:space="preserve">
+    <value>Information</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_Information' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_InnerException" xml:space="preserve">
+    <value>Inner Exception</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_InnerException' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_InnerExceptionMessage" xml:space="preserve">
+    <value>Inner Exception Message</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_InnerExceptionMessage' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_InnerExceptionSource" xml:space="preserve">
+    <value>Inner Exception Source</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_InnerExceptionSource' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_InnerExceptionStackTrace" xml:space="preserve">
+    <value>Inner Exception Stack Trace</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_InnerExceptionStackTrace' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_Level" xml:space="preserve">
+    <value>Level</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_Level' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_LineNumber" xml:space="preserve">
+    <value>Line</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_LineNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_logentryId" xml:space="preserve">
+    <value>Log Entry</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_logentryId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_logentry_ldv_exceptionthrown" xml:space="preserve">
+    <value>Exception Thrown</value>
+    <comment>'ldv_logentry' : displayname for OptionSet 'ldv_logentry_ldv_exceptionthrown' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_logentry_ldv_level" xml:space="preserve">
+    <value>Level</value>
+    <comment>'ldv_logentry' : displayname for OptionSet 'ldv_logentry_ldv_level' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_logentry_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'ldv_logentry' : displayname for OptionSet 'ldv_logentry_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_logentry_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'ldv_logentry' : displayname for OptionSet 'ldv_logentry_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_Message" xml:space="preserve">
+    <value>Message</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_Message' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_ParentLogEntryId" xml:space="preserve">
+    <value>Parent Log Entry</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_ParentLogEntryId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_ParentLogId" xml:space="preserve">
+    <value>Parent Log</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_ParentLogId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_RegardingName" xml:space="preserve">
+    <value>Regarding Name</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_RegardingName' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_RegardingType" xml:space="preserve">
+    <value>Regarding Type</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_RegardingType' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_StackTrace" xml:space="preserve">
+    <value>Stack Trace</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_StackTrace' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_StartDate" xml:space="preserve">
+    <value>Entry Date</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_StartDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryldv_User" xml:space="preserve">
+    <value>User</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ldv_User' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentrystatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentrystatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logentryUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'ldv_logentry' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'ldv_log' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_Assembly" xml:space="preserve">
+    <value>Assembly</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_Assembly' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_EntryClass" xml:space="preserve">
+    <value>Entry Class</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_EntryClass' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_EntryFunction" xml:space="preserve">
+    <value>Entry Function</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_EntryFunction' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_ExceptionLogEntry" xml:space="preserve">
+    <value>Exception Log Entry</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_ExceptionLogEntry' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_ExceptionMessage" xml:space="preserve">
+    <value>Exception Message</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_ExceptionMessage' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_ExceptionThrown" xml:space="preserve">
+    <value>Exception Thrown</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_ExceptionThrown' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_ExecutionDuration" xml:space="preserve">
+    <value>Exec. Duration (ms)</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_ExecutionDuration' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_ExecutionEndState" xml:space="preserve">
+    <value>Exec. End State</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_ExecutionEndState' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_Information" xml:space="preserve">
+    <value>Information</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_Information' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_logId" xml:space="preserve">
+    <value>Log</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_logId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_log_ldv_exceptionthrown" xml:space="preserve">
+    <value>Exception Thrown</value>
+    <comment>'ldv_log' : displayname for OptionSet 'ldv_log_ldv_exceptionthrown' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_log_ldv_executionendstate" xml:space="preserve">
+    <value>Execution End State</value>
+    <comment>'ldv_log' : displayname for OptionSet 'ldv_log_ldv_executionendstate' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_log_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'ldv_log' : displayname for OptionSet 'ldv_log_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_log_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'ldv_log' : displayname for OptionSet 'ldv_log_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_name" xml:space="preserve">
+    <value>Log ID</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_RecordURL" xml:space="preserve">
+    <value>Record URL</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_RecordURL' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_RegardingID" xml:space="preserve">
+    <value>Regarding ID</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_RegardingID' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_RegardingName" xml:space="preserve">
+    <value>Record Name</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_RegardingName' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_RegardingType" xml:space="preserve">
+    <value>Regarding Type</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_RegardingType' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_SerialisedLogEntries" xml:space="preserve">
+    <value>Serialised Log Entries</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_SerialisedLogEntries' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_StartDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_Title" xml:space="preserve">
+    <value>Title</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_Title' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logldv_User" xml:space="preserve">
+    <value>User</value>
+    <comment>'ldv_log' : displayname for Attribute 'ldv_User' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'ldv_log' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'ldv_log' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'ldv_log' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'ldv_log' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'ldv_log' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'ldv_log' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'ldv_log' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'ldv_log' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'ldv_log' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'ldv_log' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'ldv_log' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_logUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'ldv_log' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_exceptionthrown0" xml:space="preserve">
+    <value>No</value>
+    <comment>'ldv_logentry' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_exceptionthrown1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'ldv_logentry' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_level0" xml:space="preserve">
+    <value>None</value>
+    <comment>'ldv_logentry' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_level10" xml:space="preserve">
+    <value>Error</value>
+    <comment>'ldv_logentry' : label for option '10' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_level20" xml:space="preserve">
+    <value>Warning</value>
+    <comment>'ldv_logentry' : label for option '20' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_level30" xml:space="preserve">
+    <value>Info</value>
+    <comment>'ldv_logentry' : label for option '30' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_ldv_level40" xml:space="preserve">
+    <value>Debug</value>
+    <comment>'ldv_logentry' : label for option '40' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'ldv_logentry' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'ldv_logentry' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'ldv_logentry' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logentryldv_logentry_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'ldv_logentry' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_ldv_exceptionthrown0" xml:space="preserve">
+    <value>No</value>
+    <comment>'ldv_log' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_ldv_exceptionthrown1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'ldv_log' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_ldv_executionendstate0" xml:space="preserve">
+    <value>Success</value>
+    <comment>'ldv_log' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_ldv_executionendstate1" xml:space="preserve">
+    <value>Failure</value>
+    <comment>'ldv_log' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'ldv_log' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'ldv_log' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'ldv_log' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_logldv_log_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'ldv_log' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,Log Entry{026cffd6-b018-40e5-b66b-9f374b3ab425}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{026cffd6-b018-40e5-b66b-9f374b3ab425}'</comment>
+  </data>
+  <data name="1:label,Log Entry{0c04da97-e6d3-a989-416a-c06365a36655}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{0c04da97-e6d3-a989-416a-c06365a36655}'</comment>
+  </data>
+  <data name="1:label,Log Entry{0eb80b6e-d050-d076-4ec0-611a873e3040}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Log Entry' : label for tab in Entity FormXml ID: '{0eb80b6e-d050-d076-4ec0-611a873e3040}'</comment>
+  </data>
+  <data name="1:label,Log Entry{11c95fee-1ce9-4130-a495-876331bed0b1}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{11c95fee-1ce9-4130-a495-876331bed0b1}'</comment>
+  </data>
+  <data name="1:label,Log Entry{17eb859b-7e20-1365-10e6-29aaba02da06}" xml:space="preserve">
+    <value>Inner Exception Stack Trace</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{17eb859b-7e20-1365-10e6-29aaba02da06}'</comment>
+  </data>
+  <data name="1:label,Log Entry{1b267a05-e234-6d9b-b175-d7114cae938c}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{1b267a05-e234-6d9b-b175-d7114cae938c}'</comment>
+  </data>
+  <data name="1:label,Log Entry{26aab141-93b7-cb06-2ac9-d86d898b8527}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{26aab141-93b7-cb06-2ac9-d86d898b8527}'</comment>
+  </data>
+  <data name="1:label,Log Entry{28878100-ad26-b7a3-5b8a-285d9d94b373}" xml:space="preserve">
+    <value>Inner Exception</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{28878100-ad26-b7a3-5b8a-285d9d94b373}'</comment>
+  </data>
+  <data name="1:label,Log Entry{2e8b6c0b-ccc2-6e7c-da7c-602ea9780087}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{2e8b6c0b-ccc2-6e7c-da7c-602ea9780087}'</comment>
+  </data>
+  <data name="1:label,Log Entry{34670641-9734-8364-670e-7028537b1981}" xml:space="preserve">
+    <value>Code</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{34670641-9734-8364-670e-7028537b1981}'</comment>
+  </data>
+  <data name="1:label,Log Entry{356d0591-54ee-9582-129e-451e03146aa8}" xml:space="preserve">
+    <value>Exec. Duration (ms)</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{356d0591-54ee-9582-129e-451e03146aa8}'</comment>
+  </data>
+  <data name="1:label,Log Entry{3665b4b9-9955-7327-7113-8ee238273770}" xml:space="preserve">
+    <value>Exception</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{3665b4b9-9955-7327-7113-8ee238273770}'</comment>
+  </data>
+  <data name="1:label,Log Entry{38a4313d-5d96-908c-81e0-906941a80a2c}" xml:space="preserve">
+    <value>Exception Type</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{38a4313d-5d96-908c-81e0-906941a80a2c}'</comment>
+  </data>
+  <data name="1:label,Log Entry{38c90a0b-329b-c8de-0989-7b5e1a6a6c2c}" xml:space="preserve">
+    <value>Child Log Entries</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{38c90a0b-329b-c8de-0989-7b5e1a6a6c2c}'</comment>
+  </data>
+  <data name="1:label,Log Entry{3dee9288-5b7e-a8ad-d3a2-49d8457e393a}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{3dee9288-5b7e-a8ad-d3a2-49d8457e393a}'</comment>
+  </data>
+  <data name="1:label,Log Entry{4bc7656d-7290-3746-2119-78aaaee9b9e7}" xml:space="preserve">
+    <value>Exception Source</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{4bc7656d-7290-3746-2119-78aaaee9b9e7}'</comment>
+  </data>
+  <data name="1:label,Log Entry{4d03a64e-e605-3c97-dc54-b1b122a796ba}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{4d03a64e-e605-3c97-dc54-b1b122a796ba}'</comment>
+  </data>
+  <data name="1:label,Log Entry{59928b62-c4c7-53ab-0969-a683130b70e4}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{59928b62-c4c7-53ab-0969-a683130b70e4}'</comment>
+  </data>
+  <data name="1:label,Log Entry{67031313-5844-9804-cb8b-4453d863c252}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{67031313-5844-9804-cb8b-4453d863c252}'</comment>
+  </data>
+  <data name="1:label,Log Entry{6cda9214-1a72-bb53-58d1-e263e1aea721}" xml:space="preserve">
+    <value>Assembly Name</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{6cda9214-1a72-bb53-58d1-e263e1aea721}'</comment>
+  </data>
+  <data name="1:label,Log Entry{709cae69-6c21-0233-724b-32c79087a1b7}" xml:space="preserve">
+    <value>Line Number</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{709cae69-6c21-0233-724b-32c79087a1b7}'</comment>
+  </data>
+  <data name="1:label,Log Entry{771ad0cb-9674-0a89-2c58-68d2ec0b7455}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{771ad0cb-9674-0a89-2c58-68d2ec0b7455}'</comment>
+  </data>
+  <data name="1:label,Log Entry{77ee003c-d0b7-814a-07c4-07ac631e2548}" xml:space="preserve">
+    <value>Parent Log</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{77ee003c-d0b7-814a-07c4-07ac631e2548}'</comment>
+  </data>
+  <data name="1:label,Log Entry{7e7daac5-beed-46a2-b666-f21c67e9eb17}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{7e7daac5-beed-46a2-b666-f21c67e9eb17}'</comment>
+  </data>
+  <data name="1:label,Log Entry{8198a216-ce19-77ae-dc16-e7954697a319}" xml:space="preserve">
+    <value>Stack Trace</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{8198a216-ce19-77ae-dc16-e7954697a319}'</comment>
+  </data>
+  <data name="1:label,Log Entry{8255776d-6096-a17a-1c67-040b62eca0e3}" xml:space="preserve">
+    <value>Regarding Type</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{8255776d-6096-a17a-1c67-040b62eca0e3}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9385dc9d-1abe-06ae-3b69-cceeb532b699}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{9385dc9d-1abe-06ae-3b69-cceeb532b699}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9447853a-33d4-6972-b840-299406a7877d}" xml:space="preserve">
+    <value>Class Name</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{9447853a-33d4-6972-b840-299406a7877d}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9539e0ac-3d5b-d5b4-d76a-38c7e436063e}" xml:space="preserve">
+    <value>Function Name</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{9539e0ac-3d5b-d5b4-d76a-38c7e436063e}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9d6a1462-bac4-6eae-84b6-d5575ac2d025}" xml:space="preserve">
+    <value>Date and Time</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{9d6a1462-bac4-6eae-84b6-d5575ac2d025}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9de86a46-49f8-4b80-a36f-b079a2e90195}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for tab in Entity FormXml ID: '{9de86a46-49f8-4b80-a36f-b079a2e90195}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9e751a2c-531e-165e-421e-648518a7b847}" xml:space="preserve">
+    <value>Parent Log Entry</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{9e751a2c-531e-165e-421e-648518a7b847}'</comment>
+  </data>
+  <data name="1:label,Log Entry{9ee3ad11-c4e8-4680-943a-b72fe5ae894f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{9ee3ad11-c4e8-4680-943a-b72fe5ae894f}'</comment>
+  </data>
+  <data name="1:label,Log Entry{a1c5c6d9-46e0-ce1a-2108-7d98bcaa5871}" xml:space="preserve">
+    <value>Exception Thrown</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{a1c5c6d9-46e0-ce1a-2108-7d98bcaa5871}'</comment>
+  </data>
+  <data name="1:label,Log Entry{a8d92cb6-b7ee-4b48-477a-39274dc08cec}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{a8d92cb6-b7ee-4b48-477a-39274dc08cec}'</comment>
+  </data>
+  <data name="1:label,Log Entry{a988180a-e902-ee6d-3e73-173d96226e79}" xml:space="preserve">
+    <value>Inner Exception Message</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{a988180a-e902-ee6d-3e73-173d96226e79}'</comment>
+  </data>
+  <data name="1:label,Log Entry{acc1a8eb-10d6-7d04-a661-669a0e412da6}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{acc1a8eb-10d6-7d04-a661-669a0e412da6}'</comment>
+  </data>
+  <data name="1:label,Log Entry{b1ddac62-9705-1447-d257-dac832cd776d}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{b1ddac62-9705-1447-d257-dac832cd776d}'</comment>
+  </data>
+  <data name="1:label,Log Entry{bb92db0e-de80-1e1a-3779-6a4098767a2c}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{bb92db0e-de80-1e1a-3779-6a4098767a2c}'</comment>
+  </data>
+  <data name="1:label,Log Entry{bd0c3252-55aa-8d44-c1aa-8a4dd0d5e053}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Log Entry' : label for tab in Entity FormXml ID: '{bd0c3252-55aa-8d44-c1aa-8a4dd0d5e053}'</comment>
+  </data>
+  <data name="1:label,Log Entry{be3c29a3-e704-e994-1237-9c57966e3627}" xml:space="preserve">
+    <value>Entry Index</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{be3c29a3-e704-e994-1237-9c57966e3627}'</comment>
+  </data>
+  <data name="1:label,Log Entry{c0a32ae9-b362-65d1-1b82-e12185ca848a}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Log Entry' : label for tab in Entity FormXml ID: '{c0a32ae9-b362-65d1-1b82-e12185ca848a}'</comment>
+  </data>
+  <data name="1:label,Log Entry{c437e458-a9de-0396-e83c-11458ab65557}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Log Entry' : label for section in Entity FormXml ID: '{c437e458-a9de-0396-e83c-11458ab65557}'</comment>
+  </data>
+  <data name="1:label,Log Entry{ca3e81a5-cc90-16a6-52c6-6ba3724848be}" xml:space="preserve">
+    <value>Executing User</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{ca3e81a5-cc90-16a6-52c6-6ba3724848be}'</comment>
+  </data>
+  <data name="1:label,Log Entry{d08dc7c9-0aab-7d3b-1b57-0d03a1ebc70a}" xml:space="preserve">
+    <value>Message</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{d08dc7c9-0aab-7d3b-1b57-0d03a1ebc70a}'</comment>
+  </data>
+  <data name="1:label,Log Entry{d4189d29-02ec-7c51-585a-a6709b3d9ce5}" xml:space="preserve">
+    <value>Entry Date</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{d4189d29-02ec-7c51-585a-a6709b3d9ce5}'</comment>
+  </data>
+  <data name="1:label,Log Entry{d6762aec-ec77-ee36-7e4a-654c53661dc8}" xml:space="preserve">
+    <value>Inner Exception Source</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{d6762aec-ec77-ee36-7e4a-654c53661dc8}'</comment>
+  </data>
+  <data name="1:label,Log Entry{de5a7b31-11d9-4edb-8c43-c0c4988bdcb4}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{de5a7b31-11d9-4edb-8c43-c0c4988bdcb4}'</comment>
+  </data>
+  <data name="1:label,Log Entry{e1490a59-932c-5d1a-c91d-7c34eab92dd9}" xml:space="preserve">
+    <value>Regarding Name</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{e1490a59-932c-5d1a-c91d-7c34eab92dd9}'</comment>
+  </data>
+  <data name="1:label,Log Entry{e4532563-dae0-1294-c27e-70e91958b419}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{e4532563-dae0-1294-c27e-70e91958b419}'</comment>
+  </data>
+  <data name="1:label,Log Entry{e6540431-23b1-1b28-80ed-75292503a78c}" xml:space="preserve">
+    <value>Level</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{e6540431-23b1-1b28-80ed-75292503a78c}'</comment>
+  </data>
+  <data name="1:label,Log Entry{eb91752a-66d0-1061-6e54-ca8de2024103}" xml:space="preserve">
+    <value />
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{eb91752a-66d0-1061-6e54-ca8de2024103}'</comment>
+  </data>
+  <data name="1:label,Log Entry{f2b748e8-c4ad-4cdc-b458-90f41069558a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{f2b748e8-c4ad-4cdc-b458-90f41069558a}'</comment>
+  </data>
+  <data name="1:label,Log Entry{f3a07197-bea9-4c1b-9140-d04af09effa4}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Log Entry' : label for tab in Entity FormXml ID: '{f3a07197-bea9-4c1b-9140-d04af09effa4}'</comment>
+  </data>
+  <data name="1:label,Log Entry{f8e7d330-dc9c-451e-a50c-40aaf77a2349}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Log Entry' : label for cell in Entity FormXml ID: '{f8e7d330-dc9c-451e-a50c-40aaf77a2349}'</comment>
+  </data>
+  <data name="1:label,Log{03095451-79d3-9b57-0928-8792bec7bb11}" xml:space="preserve">
+    <value />
+    <comment>'Log' : label for cell in Entity FormXml ID: '{03095451-79d3-9b57-0928-8792bec7bb11}'</comment>
+  </data>
+  <data name="1:label,Log{0b22472a-1ea6-2e1b-14b2-355351b74969}" xml:space="preserve">
+    <value>Log Entries Table</value>
+    <comment>'Log' : label for tab in Entity FormXml ID: '{0b22472a-1ea6-2e1b-14b2-355351b74969}'</comment>
+  </data>
+  <data name="1:label,Log{111593a1-0866-606d-20c2-c97b6a02da60}" xml:space="preserve">
+    <value>Serialised Log Entries</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{111593a1-0866-606d-20c2-c97b6a02da60}'</comment>
+  </data>
+  <data name="1:label,Log{1273b98a-b1e2-1239-9125-e5835e207780}" xml:space="preserve">
+    <value>Entry Function</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{1273b98a-b1e2-1239-9125-e5835e207780}'</comment>
+  </data>
+  <data name="1:label,Log{14669735-b051-3ab7-abb7-6e8816886559}" xml:space="preserve">
+    <value>Exception Log Entry</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{14669735-b051-3ab7-abb7-6e8816886559}'</comment>
+  </data>
+  <data name="1:label,Log{21ce4317-c55d-e300-164c-a0ee06c9aa98}" xml:space="preserve">
+    <value>Log Entries</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{21ce4317-c55d-e300-164c-a0ee06c9aa98}'</comment>
+  </data>
+  <data name="1:label,Log{234ec22b-2cd7-9d94-5ab9-41694be09873}" xml:space="preserve">
+    <value>Code</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{234ec22b-2cd7-9d94-5ab9-41694be09873}'</comment>
+  </data>
+  <data name="1:label,Log{2798117e-43d1-82e7-5a80-d1d55c5dbe2a}" xml:space="preserve">
+    <value />
+    <comment>'Log' : label for cell in Entity FormXml ID: '{2798117e-43d1-82e7-5a80-d1d55c5dbe2a}'</comment>
+  </data>
+  <data name="1:label,Log{336ed098-9205-a90c-6271-8541460eb8dc}" xml:space="preserve">
+    <value>Log Entries Tree</value>
+    <comment>'Log' : label for tab in Entity FormXml ID: '{336ed098-9205-a90c-6271-8541460eb8dc}'</comment>
+  </data>
+  <data name="1:label,Log{362b7486-1770-40c6-97ea-db01cd4d1b10}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{362b7486-1770-40c6-97ea-db01cd4d1b10}'</comment>
+  </data>
+  <data name="1:label,Log{3b4d25bb-70e7-d426-d757-2a270719b871}" xml:space="preserve">
+    <value>Log Entries</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{3b4d25bb-70e7-d426-d757-2a270719b871}'</comment>
+  </data>
+  <data name="1:label,Log{3e213e67-6a63-4a27-8920-dc26634c2c4a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{3e213e67-6a63-4a27-8920-dc26634c2c4a}'</comment>
+  </data>
+  <data name="1:label,Log{403baf03-ab38-4bab-8c87-4eed9fcf6a0a}" xml:space="preserve">
+    <value />
+    <comment>'Log' : label for section in Entity FormXml ID: '{403baf03-ab38-4bab-8c87-4eed9fcf6a0a}'</comment>
+  </data>
+  <data name="1:label,Log{469232c7-603c-97b8-94c3-135be9299106}" xml:space="preserve">
+    <value>Title</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{469232c7-603c-97b8-94c3-135be9299106}'</comment>
+  </data>
+  <data name="1:label,Log{48fd7c87-dbfb-4311-adde-9345e81966a3}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{48fd7c87-dbfb-4311-adde-9345e81966a3}'</comment>
+  </data>
+  <data name="1:label,Log{4b3a9cbd-34e0-dd22-eb39-44d5be3e4bee}" xml:space="preserve">
+    <value>Exec. Duration (ms)</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{4b3a9cbd-34e0-dd22-eb39-44d5be3e4bee}'</comment>
+  </data>
+  <data name="1:label,Log{4e892aa0-0473-da58-e313-0aa0acad7e7b}" xml:space="preserve">
+    <value>Exec. End State</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{4e892aa0-0473-da58-e313-0aa0acad7e7b}'</comment>
+  </data>
+  <data name="1:label,Log{50fd26c8-4797-4787-804d-612960781ba3}" xml:space="preserve">
+    <value>Log ID</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{50fd26c8-4797-4787-804d-612960781ba3}'</comment>
+  </data>
+  <data name="1:label,Log{549eea90-b9da-69d4-5c21-c38749075d17}" xml:space="preserve">
+    <value>Regarding Type</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{549eea90-b9da-69d4-5c21-c38749075d17}'</comment>
+  </data>
+  <data name="1:label,Log{587cd1b7-55ce-a821-b634-783de200757d}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{587cd1b7-55ce-a821-b634-783de200757d}'</comment>
+  </data>
+  <data name="1:label,Log{59bab1ca-c26e-ae1d-02b7-36805d35e70c}" xml:space="preserve">
+    <value>Exception Message</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{59bab1ca-c26e-ae1d-02b7-36805d35e70c}'</comment>
+  </data>
+  <data name="1:label,Log{5ede4733-91a5-892a-2a76-ce865cb9b023}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{5ede4733-91a5-892a-2a76-ce865cb9b023}'</comment>
+  </data>
+  <data name="1:label,Log{64261944-1439-d4ca-e24e-4420264d7c06}" xml:space="preserve">
+    <value />
+    <comment>'Log' : label for cell in Entity FormXml ID: '{64261944-1439-d4ca-e24e-4420264d7c06}'</comment>
+  </data>
+  <data name="1:label,Log{697c73e9-5133-6100-a2c7-52d35b49b431}" xml:space="preserve">
+    <value>Regarding ID</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{697c73e9-5133-6100-a2c7-52d35b49b431}'</comment>
+  </data>
+  <data name="1:label,Log{74f0ee8e-6ead-4b62-8859-dee6c8c9c596}" xml:space="preserve">
+    <value />
+    <comment>'Log' : label for tab in Entity FormXml ID: '{74f0ee8e-6ead-4b62-8859-dee6c8c9c596}'</comment>
+  </data>
+  <data name="1:label,Log{797102ab-9210-2872-4bad-9ad9c32b5603}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{797102ab-9210-2872-4bad-9ad9c32b5603}'</comment>
+  </data>
+  <data name="1:label,Log{8946425c-0837-dbba-1366-cb7ea19d4054}" xml:space="preserve">
+    <value>Record URL</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{8946425c-0837-dbba-1366-cb7ea19d4054}'</comment>
+  </data>
+  <data name="1:label,Log{8da5c664-923a-2556-8e56-4a1e17d49ed1}" xml:space="preserve">
+    <value>Assembly Name</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{8da5c664-923a-2556-8e56-4a1e17d49ed1}'</comment>
+  </data>
+  <data name="1:label,Log{922da060-b997-655d-4916-47d32ad7db96}" xml:space="preserve">
+    <value>Entry Class</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{922da060-b997-655d-4916-47d32ad7db96}'</comment>
+  </data>
+  <data name="1:label,Log{967d4c12-3d52-d1b4-00a4-698d21ab6e3c}" xml:space="preserve">
+    <value>Exception Thrown</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{967d4c12-3d52-d1b4-00a4-698d21ab6e3c}'</comment>
+  </data>
+  <data name="1:label,Log{a9a9bba2-a459-9398-72b1-658309d6c950}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{a9a9bba2-a459-9398-72b1-658309d6c950}'</comment>
+  </data>
+  <data name="1:label,Log{aa5ac340-4291-3002-d643-8ec8bc8e8534}" xml:space="preserve">
+    <value />
+    <comment>'Log' : label for cell in Entity FormXml ID: '{aa5ac340-4291-3002-d643-8ec8bc8e8534}'</comment>
+  </data>
+  <data name="1:label,Log{ab6b4b11-e8ed-483e-8809-28b1347b9275}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Log' : label for tab in Entity FormXml ID: '{ab6b4b11-e8ed-483e-8809-28b1347b9275}'</comment>
+  </data>
+  <data name="1:label,Log{ad8b9043-b50b-cd44-6692-7abc6e94ea48}" xml:space="preserve">
+    <value>Execution State</value>
+    <comment>'Log' : label for section in Entity FormXml ID: '{ad8b9043-b50b-cd44-6692-7abc6e94ea48}'</comment>
+  </data>
+  <data name="1:label,Log{b5bb2143-b0cc-3b07-4684-6a493a399740}" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{b5bb2143-b0cc-3b07-4684-6a493a399740}'</comment>
+  </data>
+  <data name="1:label,Log{b790d009-cbbd-d0d4-c4ca-ba7dc2d5edcb}" xml:space="preserve">
+    <value>Record Name</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{b790d009-cbbd-d0d4-c4ca-ba7dc2d5edcb}'</comment>
+  </data>
+  <data name="1:label,Log{c923a7b9-d73a-4c8c-a985-c71e9cc0e972}" xml:space="preserve">
+    <value>Log ID</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{c923a7b9-d73a-4c8c-a985-c71e9cc0e972}'</comment>
+  </data>
+  <data name="1:label,Log{cca9a9d4-3d47-9cc0-8863-066d20b8d3be}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{cca9a9d4-3d47-9cc0-8863-066d20b8d3be}'</comment>
+  </data>
+  <data name="1:label,Log{d1017b0c-d686-018a-cde7-1dd14a342ec7}" xml:space="preserve">
+    <value>Executing User</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{d1017b0c-d686-018a-cde7-1dd14a342ec7}'</comment>
+  </data>
+  <data name="1:label,Log{ea7870d0-bece-4ac1-a002-52719aaccc46}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Log' : label for tab in Entity FormXml ID: '{ea7870d0-bece-4ac1-a002-52719aaccc46}'</comment>
+  </data>
+  <data name="1:label,Log{f19cef95-dc84-4b56-9950-d7cdc4cd6ef4}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Log' : label for cell in Entity FormXml ID: '{f19cef95-dc84-4b56-9950-d7cdc4cd6ef4}'</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,ldv_logentityldv_log" xml:space="preserve">
+    <value>Logs</value>
+    <comment> 'ldv_log' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,ldv_logentryentityldv_logentry" xml:space="preserve">
+    <value>Log Entries</value>
+    <comment> 'ldv_logentry' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,ldv_logentityldv_log" xml:space="preserve">
+    <value>Log</value>
+    <comment> 'ldv_log' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,ldv_logentryentityldv_logentry" xml:space="preserve">
+    <value>Log Entry</value>
+    <comment> 'ldv_logentry' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{0198b116-11c9-4b2b-8cb4-0b9431a8d673}" xml:space="preserve">
+    <value>Log Entry Lookup View</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{0198b116-11c9-4b2b-8cb4-0b9431a8d673}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{052849bc-f64b-4773-9841-42f72d7eca09}" xml:space="preserve">
+    <value>Quick Find Active Log Entries</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{052849bc-f64b-4773-9841-42f72d7eca09}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{08f60862-e246-4068-8550-6facbd7796d6}" xml:space="preserve">
+    <value>Log Entry Advanced Find View</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{08f60862-e246-4068-8550-6facbd7796d6}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log Entry' : LocalizedName for systemform in Entity FormXml ID: '{37df4ed6-168d-4709-a265-23302cec1655}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{53e15ee3-84d7-454d-a40a-10590556cb93}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log Entry' : LocalizedName for systemform in Entity FormXml ID: '{53e15ee3-84d7-454d-a40a-10590556cb93}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{654a0e51-1fa6-4755-8ffb-71f05a6b56c7}" xml:space="preserve">
+    <value>Active Log Entries</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{654a0e51-1fa6-4755-8ffb-71f05a6b56c7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{cc57748f-a7a7-4032-bac6-fea7aa36c9c1}" xml:space="preserve">
+    <value>Log Entry Associated View</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{cc57748f-a7a7-4032-bac6-fea7aa36c9c1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{d5929b5c-56fd-e411-93f4-080027688fb3}" xml:space="preserve">
+    <value>My Log Entries</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{d5929b5c-56fd-e411-93f4-080027688fb3}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{e327d9ff-3104-e611-80c5-080027e39bdb}" xml:space="preserve">
+    <value>Log Entries Grid</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{e327d9ff-3104-e611-80c5-080027e39bdb}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log Entry{fa8051dc-deaf-4361-a2b4-dcf88d598201}" xml:space="preserve">
+    <value>Inactive Log Entries</value>
+    <comment>'Log Entry' : LocalizedName for SavedQuery on Entity QueryId: '{fa8051dc-deaf-4361-a2b4-dcf88d598201}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{02311b5e-91da-43bf-822a-72a5983297ba}" xml:space="preserve">
+    <value>Quick Find Active Logs</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{02311b5e-91da-43bf-822a-72a5983297ba}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log' : LocalizedName for systemform in Entity FormXml ID: '{034221e2-0e42-418f-ab18-ef3a1673749b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{065254a8-ab0d-e511-93f4-080027688fb3}" xml:space="preserve">
+    <value>My Logs</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{065254a8-ab0d-e511-93f4-080027688fb3}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{08d0f3f1-b28b-4365-87c4-3d9e773e024c}" xml:space="preserve">
+    <value>Log Associated View</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{08d0f3f1-b28b-4365-87c4-3d9e773e024c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{1c585b96-5e73-4ffe-95b5-5a793d84d7f5}" xml:space="preserve">
+    <value>Active Logs</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{1c585b96-5e73-4ffe-95b5-5a793d84d7f5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{4daf1e62-6a69-446a-97e9-1b1c79ddf536}" xml:space="preserve">
+    <value>Inactive Logs</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{4daf1e62-6a69-446a-97e9-1b1c79ddf536}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{680875f9-cf8a-e611-80bf-00155d890101}" xml:space="preserve">
+    <value>Custom Jobs Active Logs</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{680875f9-cf8a-e611-80bf-00155d890101}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{70b1d35d-f829-45c2-b4b8-9c2475a01a37}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Log' : LocalizedName for systemform in Entity FormXml ID: '{70b1d35d-f829-45c2-b4b8-9c2475a01a37}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{9c0e4d4d-39f5-4487-93ca-ab9dc4b0f4fd}" xml:space="preserve">
+    <value>Log Lookup View</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{9c0e4d4d-39f5-4487-93ca-ab9dc4b0f4fd}'</comment>
+  </data>
+  <data name="1:LocalizedName,Log{b180c885-6653-4aea-8acc-8ece5877be5d}" xml:space="preserve">
+    <value>Log Advanced Find View</value>
+    <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{b180c885-6653-4aea-8acc-8ece5877be5d}'</comment>
+  </data>
+  <data name="1:Title,Log EntryInfo{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Log Entry' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Log EntryMarketing{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Log Entry' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Log EntryProcessCenter{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Log Entry' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Log EntrySales{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Log Entry' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Log EntryService{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Log Entry' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,LogInfo{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Log' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Logldv.ldv_log.Highlighting.Button.Alt" xml:space="preserve">
+    <value>Highlighting</value>
+    <comment>'Log' : Title for LocLabel on Entity ID: 'ldv.ldv_log.Highlighting.Button.Alt'</comment>
+  </data>
+  <data name="1:Title,Logldv.ldv_log.Highlighting.Button.LabelText" xml:space="preserve">
+    <value>Highlighting</value>
+    <comment>'Log' : Title for LocLabel on Entity ID: 'ldv.ldv_log.Highlighting.Button.LabelText'</comment>
+  </data>
+  <data name="1:Title,Logldv.ldv_log.Highlighting.Button.ToolTipDescription" xml:space="preserve">
+    <value>Highlighting</value>
+    <comment>'Log' : Title for LocLabel on Entity ID: 'ldv.ldv_log.Highlighting.Button.ToolTipDescription'</comment>
+  </data>
+  <data name="1:Title,Logldv.ldv_log.Highlighting.Button.ToolTipTitle" xml:space="preserve">
+    <value>Highlighting</value>
+    <comment>'Log' : Title for LocLabel on Entity ID: 'ldv.ldv_log.Highlighting.Button.ToolTipTitle'</comment>
+  </data>
+  <data name="1:Title,LogMarketing{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Log' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,LogProcessCenter{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Log' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,LogSales{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Log' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,LogService{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Log' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+</root>

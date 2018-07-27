@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="ldv.ldv_log.Highlighting.Button.CustomAction" Location="Mscrm.HomepageGrid.ldv_log.MainTab.Management.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ldv.ldv_log.Highlighting.Button.Alt" Command="ldv.ldv_log.Highlighting.Command" Description="Highlighting" Id="ldv.ldv_log.Highlighting.Button" LabelText="$LocLabels:ldv.ldv_log.Highlighting.Button.LabelText" Sequence="5" TemplateAlias="o1" ToolTipTitle="$LocLabels:ldv.ldv_log.Highlighting.Button.ToolTipTitle" ToolTipDescription="$LocLabels:ldv.ldv_log.Highlighting.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="ldv.ldv_log.Highlighting.Command">
+      <EnableRules>
+        <EnableRule Id="ldv.ldv_log.Highlighting.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions />
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="ldv.ldv_log.Highlighting.EnableRule">
+        <CustomRule FunctionName="HighlightRows" Library="$webresource:ldv_LogRibbonJs" Default="true" InvertResult="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ldv.ldv_log.Highlighting.Button.Alt">
+      <Titles>
+        <Title description="Highlighting" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ldv_log.Highlighting.Button.LabelText">
+      <Titles>
+        <Title description="Highlighting" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ldv_log.Highlighting.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Highlighting" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ldv_log.Highlighting.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Highlighting" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

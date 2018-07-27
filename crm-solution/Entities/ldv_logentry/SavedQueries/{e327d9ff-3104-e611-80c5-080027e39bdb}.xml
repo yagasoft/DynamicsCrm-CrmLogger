@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <returnedtypecode>10013</returnedtypecode>
+    <savedqueryid>{e327d9ff-3104-e611-80c5-080027e39bdb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" object="10013" jump="ldv_name" select="1" preview="1" icon="1">
+        <row name="result" id="ldv_logentryid">
+          <cell name="ldv_entryindex" width="75" />
+          <cell name="ldv_message" width="300" disableSorting="1" />
+          <cell name="ldv_level" width="75" />
+          <cell name="ldv_executionduration" width="100" />
+          <cell name="ldv_linenumber" width="75" />
+          <cell name="ldv_class" width="200" />
+          <cell name="ldv_callingfunction" width="200" />
+          <cell name="ldv_exception" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ldv_logentry">
+          <order attribute="ldv_entryindex" descending="false" />
+          <attribute name="ldv_message" />
+          <attribute name="ldv_linenumber" />
+          <attribute name="ldv_entryindex" />
+          <attribute name="ldv_executionduration" />
+          <attribute name="ldv_exception" />
+          <attribute name="ldv_callingfunction" />
+          <attribute name="ldv_level" />
+          <attribute name="ldv_class" />
+          <attribute name="ldv_logentryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Log Entries Grid" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

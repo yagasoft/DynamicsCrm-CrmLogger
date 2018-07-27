@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <returnedtypecode>10012</returnedtypecode>
+    <savedqueryid>{02311b5e-91da-43bf-822a-72a5983297ba}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" object="10012" jump="ldv_name" select="1" icon="1" preview="1">
+        <row name="result" id="ldv_logid">
+          <cell name="ldv_name" width="300" />
+          <cell name="ldv_assembly" width="100" />
+          <cell name="ldv_entryclass" width="100" />
+          <cell name="ldv_entryfunction" width="100" />
+          <cell name="ldv_exceptionthrown" width="100" />
+          <cell name="ldv_executionduration" width="100" />
+          <cell name="ldv_executionendstate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ldv_log">
+          <attribute name="ldv_name" />
+          <order attribute="ldv_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ldv_regardingname" operator="like" value="{0}" />
+            <condition attribute="ldv_name" operator="like" value="{0}" />
+            <condition attribute="ldv_entryfunction" operator="like" value="{0}" />
+            <condition attribute="ldv_entryclass" operator="like" value="{0}" />
+            <condition attribute="ldv_assembly" operator="like" value="{0}" />
+          </filter>
+          <attribute name="ldv_executionendstate" />
+          <attribute name="ldv_executionduration" />
+          <attribute name="ldv_exceptionthrown" />
+          <attribute name="ldv_entryfunction" />
+          <attribute name="ldv_entryclass" />
+          <attribute name="ldv_assembly" />
+          <attribute name="ldv_logid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.50</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

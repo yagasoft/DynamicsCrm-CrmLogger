@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_ldv_log" />
+  <EntityRelationship Name="business_unit_ldv_logentry" />
+  <EntityRelationship Name="ldv_ldv_log_ldv_logentry" />
+  <EntityRelationship Name="ldv_ldv_logentry_ldv_log_ExceptionLogEntry" />
+  <EntityRelationship Name="ldv_ldv_logentry_ldv_logentry" />
+  <EntityRelationship Name="ldv_systemuser_ldv_log_User" />
+  <EntityRelationship Name="ldv_systemuser_ldv_logentry_User" />
+  <EntityRelationship Name="lk_ldv_log_createdby" />
+  <EntityRelationship Name="lk_ldv_log_modifiedby" />
+  <EntityRelationship Name="lk_ldv_logentry_createdby" />
+  <EntityRelationship Name="lk_ldv_logentry_modifiedby" />
+  <EntityRelationship Name="owner_ldv_log" />
+  <EntityRelationship Name="owner_ldv_logentry" />
+  <EntityRelationship Name="team_ldv_log" />
+  <EntityRelationship Name="team_ldv_logentry" />
+  <EntityRelationship Name="user_ldv_log" />
+  <EntityRelationship Name="user_ldv_logentry" />
+</EntityRelationships>

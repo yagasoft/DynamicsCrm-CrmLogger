@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <returnedtypecode>10013</returnedtypecode>
+    <savedqueryid>{654a0e51-1fa6-4755-8ffb-71f05a6b56c7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" object="10013" jump="ldv_name" select="1" icon="1" preview="1">
+        <row name="result" id="ldv_logentryid">
+          <cell name="ldv_parentlogid" width="200" />
+          <cell name="ldv_message" width="300" disableSorting="1" />
+          <cell name="ldv_entryindex" width="75" />
+          <cell name="ldv_exceptionthrown" width="125" />
+          <cell name="ldv_exception" width="200" />
+          <cell name="ldv_level" width="75" />
+          <cell name="ldv_executionduration" width="125" />
+          <cell name="ldv_startdate" width="150" />
+          <cell name="ldv_assembly" width="300" />
+          <cell name="ldv_class" width="200" />
+          <cell name="ldv_callingfunction" width="300" />
+          <cell name="ldv_linenumber" width="75" />
+          <cell name="ldv_user" width="150" />
+          <cell name="createdon" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ldv_logentry">
+          <order attribute="ldv_parentlogid" descending="true" />
+          <order attribute="ldv_entryindex" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ldv_user" />
+          <attribute name="ldv_linenumber" />
+          <attribute name="ldv_exception" />
+          <attribute name="ldv_callingfunction" />
+          <attribute name="ldv_assembly" />
+          <attribute name="ldv_entryindex" />
+          <attribute name="ldv_class" />
+          <attribute name="ldv_parentlogid" />
+          <attribute name="createdon" />
+          <attribute name="ldv_startdate" />
+          <attribute name="ldv_executionduration" />
+          <attribute name="ldv_message" />
+          <attribute name="ldv_level" />
+          <attribute name="ldv_exceptionthrown" />
+          <attribute name="ldv_logentryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Log Entries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

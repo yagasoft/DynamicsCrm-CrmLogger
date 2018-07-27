@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{912d0184-fc72-e711-80cb-00155d5f3d01}</WebResourceId>
+  <Name>ldv_/CrmLogger/html/Tree.html</Name>
+  <DisplayName>CRM Logger Tree HTML</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>3.1.5.3</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ldv_CrmLoggerhtmlTreehtml912D0184-FC72-E711-80CB-00155D5F3D01</FileName>
+</WebResource>

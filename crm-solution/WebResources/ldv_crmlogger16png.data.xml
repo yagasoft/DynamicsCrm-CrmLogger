@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{9d23b7ec-7822-e511-80c4-080027e39bdb}</WebResourceId>
+  <Name>ldv_crmlogger16png</Name>
+  <DisplayName>CRM Logger 16 PNG</DisplayName>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>2.3.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ldv_crmlogger16png9D23B7EC-7822-E511-80C4-080027E39BDB</FileName>
+</WebResource>

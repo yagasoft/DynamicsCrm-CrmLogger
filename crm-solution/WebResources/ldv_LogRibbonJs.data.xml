@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{55f9b62f-1874-e611-80bf-00155d890101}</WebResourceId>
+  <Name>ldv_LogRibbonJs</Name>
+  <DisplayName>Log Ribbon JS</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.1.1.1</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ldv_LogRibbonJs55F9B62F-1874-E611-80BF-00155D890101</FileName>
+</WebResource>
