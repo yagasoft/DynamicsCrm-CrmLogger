@@ -80,7 +80,7 @@ private void Test(CrmLog log)
 }
 ```
 
-CrmLog class can be found in either Common.cs in the DynamicsCrm-Libraries repository (for plugins), or LinkDev.Libraries on NuGet (for apps).
+CrmLog class can be found in either Common.cs in the [DynamicsCrm-Libraries](https://github.com/yagasoft/DynamicsCrm-Libraries) repository (for plugins), or [LinkDev.Libraries](https://www.nuget.org/packages/LinkDev.Libraries.Common/) on NuGet (for web/console apps).
 
 ### Dependencies
 
