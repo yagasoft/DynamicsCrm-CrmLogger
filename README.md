@@ -1,4 +1,7 @@
 # DynamicsCrm-CrmLogger
+
+[![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-CrmLogger](https://badges.gitter.im/yagasoft/DynamicsCrm-CrmLogger.svg)](https://gitter.im/yagasoft/DynamicsCrm-CrmLogger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Version: 1.1
 ---
 
