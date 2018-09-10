@@ -5,8 +5,10 @@
     <LocalizedNames>
       <LocalizedName description="CRM Logger" languagecode="1033" />
     </LocalizedNames>
-    <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Descriptions>
+      <Description description="Refer to Yagasoft.com for any enquiries." languagecode="1033" />
+    </Descriptions>
+    <Version>2.1.1.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>linkdevelopment</UniqueName>
@@ -80,23 +82,88 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="ldv_genericconfiguration" behavior="2" />
       <RootComponent type="1" schemaName="ldv_log" behavior="0" />
       <RootComponent type="1" schemaName="ldv_logentry" behavior="0" />
+      <RootComponent type="9" schemaName="ldv_datefrequency" behavior="0" />
+      <RootComponent type="9" schemaName="ldv_filesplitmode" behavior="0" />
+      <RootComponent type="9" schemaName="ldv_loglevel" behavior="0" />
+      <RootComponent type="9" schemaName="ldv_logmode" behavior="0" />
+      <RootComponent type="29" id="{3292d14c-c00f-e711-80c7-00155d5f3d01}" behavior="0" />
+      <RootComponent type="29" id="{7abcfa59-a60f-e711-80c7-00155d5f3d01}" behavior="0" />
+      <RootComponent type="29" id="{8a27f0a0-9f0f-e711-80c7-00155d5f3d01}" behavior="0" />
+      <RootComponent type="29" id="{9bf9c9f5-bf0f-e711-80c7-00155d5f3d01}" behavior="0" />
+      <RootComponent type="29" id="{bbfe4ab7-c00f-e711-80c7-00155d5f3d01}" behavior="0" />
+      <RootComponent type="60" id="{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" behavior="0" />
       <RootComponent type="61" schemaName="ldv_/CrmLogger/html/Tree.html" behavior="0" />
+      <RootComponent type="61" schemaName="ldv_crmlogconfig16png" behavior="0" />
+      <RootComponent type="61" schemaName="ldv_crmlogconfig32png" behavior="0" />
       <RootComponent type="61" schemaName="ldv_crmlogger16png" behavior="0" />
       <RootComponent type="61" schemaName="ldv_crmlogger32png" behavior="0" />
       <RootComponent type="61" schemaName="ldv_CrmLoggerLogJs" behavior="0" />
       <RootComponent type="61" schemaName="ldv_LogRibbonJs" behavior="0" />
-      <RootComponent type="92" id="{041f1829-2b72-e711-80ca-00155d5f3d01}" behavior="0" />
+      <RootComponent type="91" schemaName="LinkDev.CrmLogger.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="61" schemaName="ldv_CommonGenericJs" displayName="ldv_CommonGenericJs" solution="Active" />
-        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Log" id="{034221e2-0e42-418f-ab18-ef3a1673749b}" />
+        <Required key="0" type="1" schemaName="ldv_genericconfiguration" displayName="Generic Configuration" solution="Active" />
+        <Dependent key="0" type="1" schemaName="ldv_genericconfiguration" displayName="Generic Configuration" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="90" schemaName="LinkDev.Plugins.Common.ProcessLogPayload, LinkDev.Plugins.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" displayName="LinkDev.Plugins.Common.ProcessLogPayload" solution="Active" />
-        <Dependent key="3" type="92" id="{041f1829-2b72-e711-80ca-00155d5f3d01}" />
+        <Required key="1" type="2" schemaName="ldv_name" displayName="Name" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="2" type="29" displayName="Log Mode" id="{9bf9c9f5-bf0f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ldv_genericconfigurationid" displayName="Generic Configuration" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="2" type="29" displayName="Log Mode" id="{9bf9c9f5-bf0f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="2" schemaName="ldv_name" displayName="Name" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="4" type="29" displayName="File Split Mode - Date" id="{bbfe4ab7-c00f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ldv_genericconfigurationid" displayName="Generic Configuration" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="4" type="29" displayName="File Split Mode - Date" id="{bbfe4ab7-c00f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ldv_genericconfigurationid" displayName="Generic Configuration" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="5" type="29" displayName="File Split Mode - Size" id="{3292d14c-c00f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="2" schemaName="ldv_name" displayName="Name" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="5" type="29" displayName="File Split Mode - Size" id="{3292d14c-c00f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="7" type="60" displayName="Logging" parentDisplayName="Generic Configuration" id="{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ldv_genericconfigurationid" displayName="Generic Configuration" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="8" type="26" schemaName="Logging Settings" displayName="Logging Settings" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" id="{8094bd0d-1369-e611-80bd-00155d890101}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="2" schemaName="ldv_name" displayName="Name" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="7" type="60" displayName="Logging" parentDisplayName="Generic Configuration" id="{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ldv_genericconfigurationid" displayName="Generic Configuration" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="9" type="29" displayName="Path Requirement" id="{8a27f0a0-9f0f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="2" schemaName="ldv_name" displayName="Name" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="9" type="29" displayName="Path Requirement" id="{8a27f0a0-9f0f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ldv_genericconfigurationid" displayName="Generic Configuration" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="10" type="29" displayName="Size Limit Requirement" id="{7abcfa59-a60f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="2" schemaName="ldv_name" displayName="Name" parentSchemaName="ldv_genericconfiguration" parentDisplayName="Generic Configuration" solution="Active" />
+        <Dependent key="10" type="29" displayName="Size Limit Requirement" id="{7abcfa59-a60f-e711-80c7-00155d5f3d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="61" schemaName="ldv_CommonGenericJs" displayName="ldv_CommonGenericJs" solution="Active" />
+        <Dependent key="12" type="60" displayName="Information" parentDisplayName="Log" id="{034221e2-0e42-418f-ab18-ef3a1673749b}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

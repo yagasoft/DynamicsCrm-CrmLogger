@@ -372,7 +372,7 @@
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="ldv_logentry_ldv_exceptionthrown">
             <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>4.3.2.2</IntroducedVersion>
+            <IntroducedVersion>1.2.1.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Exception Thrown" languagecode="1033" />
@@ -628,7 +628,7 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="ldv_logentry_ldv_level">
             <OptionSetType>picklist</OptionSetType>
-            <IntroducedVersion>4.3.2.2</IntroducedVersion>
+            <IntroducedVersion>1.2.1.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Level" languagecode="1033" />
@@ -1406,7 +1406,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="ldv_logentry_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>4.3.2.2</IntroducedVersion>
+            <IntroducedVersion>1.2.1.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -1460,7 +1460,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="ldv_logentry_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>4.3.2.2</IntroducedVersion>
+            <IntroducedVersion>1.2.1.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />

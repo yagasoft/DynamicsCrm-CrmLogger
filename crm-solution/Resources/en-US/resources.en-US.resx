@@ -220,6 +220,10 @@
     <value>Unique identifier for the user that owns the record.</value>
     <comment>ldv_logentry Description for EntityRelationship 'user_ldv_logentry'</comment>
   </data>
+  <data name="15062:Description,CRMLogger" xml:space="preserve">
+    <value>Refer to Yagasoft.com for any enquiries.</value>
+    <comment> 'CRMLogger' : Description for Solution</comment>
+  </data>
   <data name="15062:Description,linkdevelopmentldv75324" xml:space="preserve">
     <value>The default publisher for link development</value>
     <comment> 'linkdevelopment' : Description for Solution Publisher</comment>
@@ -231,6 +235,62 @@
   <data name="15062:LocalizedName,linkdevelopmentldv75324" xml:space="preserve">
     <value>LINK Development</value>
     <comment> 'linkdevelopment' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_AssemblyExclusion" xml:space="preserve">
+    <value>Enter a Regex. Assembly names matching this Regex will be excluded from log.</value>
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_AssemblyExclusion' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_AssemblyFilter" xml:space="preserve">
+    <value>Enter a RegEx expression. Matching assembly names will be included in the log. This boosts performance.</value>
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_AssemblyFilter' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_genericconfiguration_ldv_iscategorisebytype" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for OptionSet 'ldv_genericconfiguration_ldv_iscategorisebytype' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_genericconfiguration_ldv_isreuselogfile" xml:space="preserve">
+    <value>This will clear the log file and start over when the size limit is reached.</value>
+    <comment>'ldv_genericconfiguration' : Description for OptionSet 'ldv_genericconfiguration_ldv_isreuselogfile' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_IsCategoriseByType" xml:space="preserve">
+    <value>Create a folder per assembly.</value>
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_IsCategoriseByType' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_IsReuseLogFile" xml:space="preserve">
+    <value>This will clear the log file and start over when the size limit is reached.</value>
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_IsReuseLogFile' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogFileDateFormat" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogFileDateFormat' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogFileSplitDate" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogFileSplitDate' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogFileSplitFrequency" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogFileSplitFrequency' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogFileSplitMode" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogFileSplitMode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogLevel" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogLevel' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogMode" xml:space="preserve">
+    <value />
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogMode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_LogPath" xml:space="preserve">
+    <value>The folder to contain all log files.</value>
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_LogPath' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_genericconfigurationldv_MaxFileSize" xml:space="preserve">
+    <value>In KB.</value>
+    <comment>'ldv_genericconfiguration' : Description for Attribute 'ldv_MaxFileSize' on Entity</comment>
   </data>
   <data name="1:Description,ldv_logCreatedBy" xml:space="preserve">
     <value>Unique identifier of the user who created the record.</value>
@@ -616,6 +676,62 @@
     <value>This is the form that is displayed for the CRM Mobile application.</value>
     <comment>'Log' : Description for systemform in Entity FormXml ID: '{70b1d35d-f829-45c2-b4b8-9c2475a01a37}'</comment>
   </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_AssemblyExclusion" xml:space="preserve">
+    <value>Assembly Exclusion</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_AssemblyExclusion' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_AssemblyFilter" xml:space="preserve">
+    <value>Assembly Filter</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_AssemblyFilter' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_genericconfiguration_ldv_iscategorisebytype" xml:space="preserve">
+    <value>Categorise by Type</value>
+    <comment>'ldv_genericconfiguration' : displayname for OptionSet 'ldv_genericconfiguration_ldv_iscategorisebytype' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_genericconfiguration_ldv_isreuselogfile" xml:space="preserve">
+    <value>Reuse Log File</value>
+    <comment>'ldv_genericconfiguration' : displayname for OptionSet 'ldv_genericconfiguration_ldv_isreuselogfile' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_IsCategoriseByType" xml:space="preserve">
+    <value>Categorise by Type</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_IsCategoriseByType' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_IsReuseLogFile" xml:space="preserve">
+    <value>Reuse Log File</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_IsReuseLogFile' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogFileDateFormat" xml:space="preserve">
+    <value>Log File Date Format</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogFileDateFormat' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogFileSplitDate" xml:space="preserve">
+    <value>Log File Split Date</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogFileSplitDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogFileSplitFrequency" xml:space="preserve">
+    <value>Log File Split Frequency</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogFileSplitFrequency' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogFileSplitMode" xml:space="preserve">
+    <value>Log File Split Mode</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogFileSplitMode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogLevel" xml:space="preserve">
+    <value>Log Level</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogLevel' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogMode" xml:space="preserve">
+    <value>Log Mode</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogMode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_LogPath" xml:space="preserve">
+    <value>Log Path</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_LogPath' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_genericconfigurationldv_MaxFileSize" xml:space="preserve">
+    <value>Max File Size (KB)</value>
+    <comment>'ldv_genericconfiguration' : displayname for Attribute 'ldv_MaxFileSize' on Entity</comment>
+  </data>
   <data name="1:displayname,ldv_logCreatedBy" xml:space="preserve">
     <value>Created By</value>
     <comment>'ldv_log' : displayname for Attribute 'CreatedBy' on Entity</comment>
@@ -951,6 +1067,102 @@
   <data name="1:displayname,ldv_logUTCConversionTimeZoneCode" xml:space="preserve">
     <value>UTC Conversion Time Zone Code</value>
     <comment>'ldv_log' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Generic Configuration{128024ac-defd-4548-9f31-81e4c9ffa087}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{128024ac-defd-4548-9f31-81e4c9ffa087}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{1864cc01-8110-a86c-3c3e-8698ced9a15c}" xml:space="preserve">
+    <value>Log Mode</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{1864cc01-8110-a86c-3c3e-8698ced9a15c}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{19102333-ae4b-4170-a5ce-cc8b109e09ae}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Generic Configuration' : label for section in Entity FormXml ID: '{19102333-ae4b-4170-a5ce-cc8b109e09ae}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{28abc94d-55d1-441d-c75e-35cc298d4298}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Generic Configuration' : label for section in Entity FormXml ID: '{28abc94d-55d1-441d-c75e-35cc298d4298}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{2b07b916-5470-2796-86d8-e018b23d4630}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Generic Configuration' : label for tab in Entity FormXml ID: '{2b07b916-5470-2796-86d8-e018b23d4630}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{39400265-97ec-7383-e2bd-bc5dda44153d}" xml:space="preserve">
+    <value>Log Path</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{39400265-97ec-7383-e2bd-bc5dda44153d}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{3ab9591c-8d3c-6646-22a4-ab229a34d035}" xml:space="preserve">
+    <value>Assembly Exclusion</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{3ab9591c-8d3c-6646-22a4-ab229a34d035}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{3caa6f22-bafd-4dc4-8b6b-5ef10f2b76a7}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Generic Configuration' : label for tab in Entity FormXml ID: '{3caa6f22-bafd-4dc4-8b6b-5ef10f2b76a7}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{44d86603-52c8-4cd8-4798-a10944c8a65e}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Generic Configuration' : label for section in Entity FormXml ID: '{44d86603-52c8-4cd8-4798-a10944c8a65e}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{51e9c701-1b88-888b-1a34-36869ee527c1}" xml:space="preserve">
+    <value>Max File Size (KB)</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{51e9c701-1b88-888b-1a34-36869ee527c1}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{58e0e6b1-9657-1ec6-ec32-837e89952763}" xml:space="preserve">
+    <value>Log File Split Frequency</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{58e0e6b1-9657-1ec6-ec32-837e89952763}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{63cedcbd-3d13-8c4e-5036-08248ca30435}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Generic Configuration' : label for tab in Entity FormXml ID: '{63cedcbd-3d13-8c4e-5036-08248ca30435}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{734a6878-d903-29eb-82e5-0c36ac03e111}" xml:space="preserve">
+    <value>Categorise by Type</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{734a6878-d903-29eb-82e5-0c36ac03e111}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{7694b869-63db-0c08-b543-0989bbbd2964}" xml:space="preserve">
+    <value>Assembly Filter</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{7694b869-63db-0c08-b543-0989bbbd2964}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{77127982-aab7-8ead-0848-06089cb0baa4}" xml:space="preserve">
+    <value>Log File Split Date</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{77127982-aab7-8ead-0848-06089cb0baa4}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{7b805a0a-48b6-8540-3b6c-388409e8aaca}" xml:space="preserve">
+    <value>Log Level</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{7b805a0a-48b6-8540-3b6c-388409e8aaca}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{80329796-18d7-55b8-2320-ba1742b23373}" xml:space="preserve">
+    <value>Log File Split Mode</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{80329796-18d7-55b8-2320-ba1742b23373}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{98d7070d-cbc0-0886-dd17-d5135c118a5e}" xml:space="preserve">
+    <value>Log File Date Format</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{98d7070d-cbc0-0886-dd17-d5135c118a5e}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{9cb15278-b46c-b033-c00c-80d42051e24b}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Generic Configuration' : label for section in Entity FormXml ID: '{9cb15278-b46c-b033-c00c-80d42051e24b}'</comment>
+  </data>
+  <data name="1:label,Generic Configuration{fe91229c-94f3-4a4e-a17a-1ee95a7113f2}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Generic Configuration' : label for cell in Entity FormXml ID: '{fe91229c-94f3-4a4e-a17a-1ee95a7113f2}'</comment>
+  </data>
+  <data name="1:label,ldv_genericconfigurationldv_genericconfiguration_ldv_iscategorisebytype0" xml:space="preserve">
+    <value>No</value>
+    <comment>'ldv_genericconfiguration' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_genericconfigurationldv_genericconfiguration_ldv_iscategorisebytype1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'ldv_genericconfiguration' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_genericconfigurationldv_genericconfiguration_ldv_isreuselogfile0" xml:space="preserve">
+    <value>No</value>
+    <comment>'ldv_genericconfiguration' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_genericconfigurationldv_genericconfiguration_ldv_isreuselogfile1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'ldv_genericconfiguration' : label for option '1' on Entity</comment>
   </data>
   <data name="1:label,ldv_logentryldv_logentry_ldv_exceptionthrown0" xml:space="preserve">
     <value>No</value>
@@ -1420,6 +1632,14 @@
     <value>Log Entries</value>
     <comment> 'ldv_logentry' : LocalizedCollectionName for Entity</comment>
   </data>
+  <data name="1:LocalizedName,Generic Configuration{8094bd0d-1369-e611-80bd-00155d890101}" xml:space="preserve">
+    <value>Logging Settings</value>
+    <comment>'Generic Configuration' : LocalizedName for SavedQuery on Entity QueryId: '{8094bd0d-1369-e611-80bd-00155d890101}'</comment>
+  </data>
+  <data name="1:LocalizedName,Generic Configuration{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" xml:space="preserve">
+    <value>Logging</value>
+    <comment>'Generic Configuration' : LocalizedName for systemform in Entity FormXml ID: '{c1c55496-ae8d-4cf2-8e24-f2ead7309739}'</comment>
+  </data>
   <data name="1:LocalizedName,ldv_logentityldv_log" xml:space="preserve">
     <value>Log</value>
     <comment> 'ldv_log' : LocalizedName for Entity</comment>
@@ -1508,6 +1728,26 @@
     <value>Log Advanced Find View</value>
     <comment>'Log' : LocalizedName for SavedQuery on Entity QueryId: '{b180c885-6653-4aea-8acc-8ece5877be5d}'</comment>
   </data>
+  <data name="1:Title,Generic ConfigurationInfo{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Generic Configuration' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Generic ConfigurationMarketing{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Generic Configuration' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Generic ConfigurationProcessCenter{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Generic Configuration' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Generic ConfigurationSales{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Generic Configuration' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Generic ConfigurationService{c1c55496-ae8d-4cf2-8e24-f2ead7309739}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Generic Configuration' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
   <data name="1:Title,Log EntryInfo{37df4ed6-168d-4709-a265-23302cec1655}" xml:space="preserve">
     <value>Common</value>
     <comment>'Log Entry' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
@@ -1563,5 +1803,157 @@
   <data name="1:Title,LogService{034221e2-0e42-418f-ab18-ef3a1673749b}" xml:space="preserve">
     <value>Service</value>
     <comment>'Log' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="9:Description,ldv_datefrequency" xml:space="preserve">
+    <value />
+    <comment>'ldv_datefrequency' : Description for OptionSet</comment>
+  </data>
+  <data name="9:Description,ldv_datefrequency10" xml:space="preserve">
+    <value />
+    <comment>'ldv_datefrequency' : Description for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:Description,ldv_datefrequency20" xml:space="preserve">
+    <value />
+    <comment>'ldv_datefrequency' : Description for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:Description,ldv_datefrequency30" xml:space="preserve">
+    <value />
+    <comment>'ldv_datefrequency' : Description for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:Description,ldv_datefrequency40" xml:space="preserve">
+    <value />
+    <comment>'ldv_datefrequency' : Description for OptionSet Value '40'</comment>
+  </data>
+  <data name="9:Description,ldv_filesplitmode" xml:space="preserve">
+    <value />
+    <comment>'ldv_filesplitmode' : Description for OptionSet</comment>
+  </data>
+  <data name="9:Description,ldv_filesplitmode10" xml:space="preserve">
+    <value />
+    <comment>'ldv_filesplitmode' : Description for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:Description,ldv_filesplitmode20" xml:space="preserve">
+    <value />
+    <comment>'ldv_filesplitmode' : Description for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:Description,ldv_filesplitmode30" xml:space="preserve">
+    <value />
+    <comment>'ldv_filesplitmode' : Description for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:Description,ldv_loglevel" xml:space="preserve">
+    <value>The log levels specified in the CRM Logger component.</value>
+    <comment>'ldv_loglevel' : Description for OptionSet</comment>
+  </data>
+  <data name="9:Description,ldv_loglevel0" xml:space="preserve">
+    <value />
+    <comment>'ldv_loglevel' : Description for OptionSet Value '0'</comment>
+  </data>
+  <data name="9:Description,ldv_loglevel10" xml:space="preserve">
+    <value />
+    <comment>'ldv_loglevel' : Description for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:Description,ldv_loglevel20" xml:space="preserve">
+    <value />
+    <comment>'ldv_loglevel' : Description for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:Description,ldv_loglevel30" xml:space="preserve">
+    <value />
+    <comment>'ldv_loglevel' : Description for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:Description,ldv_loglevel40" xml:space="preserve">
+    <value />
+    <comment>'ldv_loglevel' : Description for OptionSet Value '40'</comment>
+  </data>
+  <data name="9:Description,ldv_logmode" xml:space="preserve">
+    <value />
+    <comment>'ldv_logmode' : Description for OptionSet</comment>
+  </data>
+  <data name="9:Description,ldv_logmode10" xml:space="preserve">
+    <value />
+    <comment>'ldv_logmode' : Description for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:Description,ldv_logmode20" xml:space="preserve">
+    <value />
+    <comment>'ldv_logmode' : Description for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:Description,ldv_logmode30" xml:space="preserve">
+    <value />
+    <comment>'ldv_logmode' : Description for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:displayname,ldv_datefrequency" xml:space="preserve">
+    <value>Date Frequency</value>
+    <comment>'ldv_datefrequency' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,ldv_filesplitmode" xml:space="preserve">
+    <value>File Split Mode</value>
+    <comment>'ldv_filesplitmode' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,ldv_loglevel" xml:space="preserve">
+    <value>Log Level</value>
+    <comment>'ldv_loglevel' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,ldv_logmode" xml:space="preserve">
+    <value>Log Mode</value>
+    <comment>'ldv_logmode' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:label,ldv_datefrequency10" xml:space="preserve">
+    <value>Hourly</value>
+    <comment>'ldv_datefrequency' : label for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:label,ldv_datefrequency20" xml:space="preserve">
+    <value>Daily</value>
+    <comment>'ldv_datefrequency' : label for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:label,ldv_datefrequency30" xml:space="preserve">
+    <value>Monthly</value>
+    <comment>'ldv_datefrequency' : label for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:label,ldv_datefrequency40" xml:space="preserve">
+    <value>Yearly</value>
+    <comment>'ldv_datefrequency' : label for OptionSet Value '40'</comment>
+  </data>
+  <data name="9:label,ldv_filesplitmode10" xml:space="preserve">
+    <value>Size</value>
+    <comment>'ldv_filesplitmode' : label for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:label,ldv_filesplitmode20" xml:space="preserve">
+    <value>Date</value>
+    <comment>'ldv_filesplitmode' : label for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:label,ldv_filesplitmode30" xml:space="preserve">
+    <value>Both</value>
+    <comment>'ldv_filesplitmode' : label for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:label,ldv_loglevel0" xml:space="preserve">
+    <value>None</value>
+    <comment>'ldv_loglevel' : label for OptionSet Value '0'</comment>
+  </data>
+  <data name="9:label,ldv_loglevel10" xml:space="preserve">
+    <value>Error</value>
+    <comment>'ldv_loglevel' : label for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:label,ldv_loglevel20" xml:space="preserve">
+    <value>Warning</value>
+    <comment>'ldv_loglevel' : label for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:label,ldv_loglevel30" xml:space="preserve">
+    <value>Info</value>
+    <comment>'ldv_loglevel' : label for OptionSet Value '30'</comment>
+  </data>
+  <data name="9:label,ldv_loglevel40" xml:space="preserve">
+    <value>Debug</value>
+    <comment>'ldv_loglevel' : label for OptionSet Value '40'</comment>
+  </data>
+  <data name="9:label,ldv_logmode10" xml:space="preserve">
+    <value>CRM</value>
+    <comment>'ldv_logmode' : label for OptionSet Value '10'</comment>
+  </data>
+  <data name="9:label,ldv_logmode20" xml:space="preserve">
+    <value>File</value>
+    <comment>'ldv_logmode' : label for OptionSet Value '20'</comment>
+  </data>
+  <data name="9:label,ldv_logmode30" xml:space="preserve">
+    <value>Both</value>
+    <comment>'ldv_logmode' : label for OptionSet Value '30'</comment>
   </data>
 </root>

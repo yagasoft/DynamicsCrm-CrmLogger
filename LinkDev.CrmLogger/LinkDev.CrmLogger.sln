@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDev.CrmLogger.Plugins", "LinkDev.CrmLogger.Plugins\LinkDev.CrmLogger.Plugins.csproj", "{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {851A2E71-5566-40DF-A9CC-2194BE7E4D32}
+	EndGlobalSection
+EndGlobal

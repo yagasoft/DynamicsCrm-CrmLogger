@@ -10,7 +10,7 @@
   <OrganizationSettings />
   <optionsets />
   <WebResources />
-  <SdkMessageProcessingSteps />
+  <SolutionPluginAssemblies />
   <Languages>
     <Language>1033</Language>
   </Languages>

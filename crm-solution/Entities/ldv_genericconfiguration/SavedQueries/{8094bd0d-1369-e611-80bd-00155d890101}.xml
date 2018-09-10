@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <returnedtypecode>10005</returnedtypecode>
+    <savedqueryid>{8094bd0d-1369-e611-80bd-00155d890101}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" object="10005" jump="ldv_name" select="1" preview="1" icon="1">
+        <row name="result" id="ldv_genericconfigurationid">
+          <cell name="ldv_loglevel" width="300" />
+          <cell name="ldv_logmode" width="100" />
+          <cell name="ldv_logpath" width="200" />
+          <cell name="ldv_logfiledateformat" width="150" />
+          <cell name="ldv_iscategorisebytype" width="125" />
+          <cell name="ldv_logfilesplitmode" width="125" />
+          <cell name="ldv_maxfilesize" width="125" />
+          <cell name="ldv_logfilesplitfrequency" width="150" />
+          <cell name="ldv_logfilesplitdate" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ldv_genericconfiguration">
+          <order attribute="ldv_loglevel" descending="false" />
+          <attribute name="ldv_loglevel" />
+          <attribute name="ldv_maxfilesize" />
+          <attribute name="ldv_logpath" />
+          <attribute name="ldv_logmode" />
+          <attribute name="ldv_logfilesplitmode" />
+          <attribute name="ldv_logfilesplitfrequency" />
+          <attribute name="ldv_logfilesplitdate" />
+          <attribute name="ldv_logfiledateformat" />
+          <attribute name="ldv_iscategorisebytype" />
+          <attribute name="ldv_genericconfigurationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.7.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Logging Settings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

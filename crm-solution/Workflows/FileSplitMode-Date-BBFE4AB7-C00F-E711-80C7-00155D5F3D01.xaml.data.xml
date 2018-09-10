@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{bbfe4ab7-c00f-e711-80c7-00155d5f3d01}" Name="File Split Mode - Date" Description="Click to add description">
+  <XamlFileName>/Workflows/FileSplitMode-Date-BBFE4AB7-C00F-E711-80C7-00155D5F3D01.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>2.3.1.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>ldv_genericconfiguration</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{cf2b0495-51b0-e811-8101-00155d5f3d03}">
+      <controltype>1</controltype>
+      <formid>{c1c55496-ae8d-4cf2-8e24-f2ead7309739}</formid>
+      <scope>1</scope>
+      <controlname>ldv_logfilesplitmode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>ldv_genericconfiguration</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{d02b0495-51b0-e811-8101-00155d5f3d03}">
+      <formid>{c1c55496-ae8d-4cf2-8e24-f2ead7309739}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>ldv_genericconfiguration</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>
