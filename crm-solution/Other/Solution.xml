@@ -8,20 +8,18 @@
     <Descriptions>
       <Description description="Refer to Yagasoft.com for any enquiries." languagecode="1033" />
     </Descriptions>
-    <Version>2.1.1.1</Version>
+    <Version>3.1.1.1</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>linkdevelopment</UniqueName>
+      <UniqueName>yagasoft</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="LINK Development" languagecode="1033" />
+        <LocalizedName description="Yagasoft" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions>
-        <Description description="The default publisher for link development" languagecode="1033" />
-      </Descriptions>
-      <EMailAddress xsi:nil="true"></EMailAddress>
-      <SupportingWebsiteUrl>http://www.linkdev.com</SupportingWebsiteUrl>
-      <CustomizationPrefix>ldv</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>75324</CustomizationOptionValuePrefix>
+      <Descriptions />
+      <EMailAddress>mail@yagasoft.com</EMailAddress>
+      <SupportingWebsiteUrl>http://yagasoft.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>ys</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>71786</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -102,7 +100,7 @@
       <RootComponent type="61" schemaName="ldv_crmlogger32png" behavior="0" />
       <RootComponent type="61" schemaName="ldv_CrmLoggerLogJs" behavior="0" />
       <RootComponent type="61" schemaName="ldv_LogRibbonJs" behavior="0" />
-      <RootComponent type="91" schemaName="LinkDev.CrmLogger.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" behavior="0" />
+      <RootComponent type="91" schemaName="Yagasoft.CrmLogger.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>

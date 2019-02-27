@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-CrmLogger](https://badges.gitter.im/yagasoft/DynamicsCrm-CrmLogger.svg)](https://gitter.im/yagasoft/DynamicsCrm-CrmLogger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Version: 2.1.1.1
+### Version: 3.1.1.1
 ---
 
 A CRM solution that provides a lot of details when logging from plugins, web-services, and console apps. It provides a tree view of function calls as well.
@@ -88,9 +88,11 @@ CrmLog class can be found in either Common.cs in the [DynamicsCrm-Libraries](htt
 		
 ## Changes
 
+#### _v3.1.1.1 (2019-02-27)_
++ Changed: moved to a new namespace
 #### _v2.1.1.1 (2018-09-05)_
 + Added: processing plugin
 + Changed: cleaned the project of obsolete components
 
 ---
-**Copyright &copy; by Ahmed el-Sawalhy ([Yagasoft](http://yagasoft.com))** -- _GPL v3 Licence_
+**Copyright &copy; by Ahmed Elsawalhy ([Yagasoft](http://yagasoft.com))** -- _GPL v3 Licence_

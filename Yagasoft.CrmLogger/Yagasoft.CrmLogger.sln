@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDev.CrmLogger.Plugins", "LinkDev.CrmLogger.Plugins\LinkDev.CrmLogger.Plugins.csproj", "{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagasoft.CrmLogger.Plugins", "Yagasoft.CrmLogger.Plugins\Yagasoft.CrmLogger.Plugins.csproj", "{3A14BFFB-29EB-4DD8-BC5D-2422C041BEBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

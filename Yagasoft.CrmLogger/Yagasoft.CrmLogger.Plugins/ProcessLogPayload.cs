@@ -3,12 +3,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using LinkDev.Libraries.Common;
+using Yagasoft.Libraries.Common;
 using Microsoft.Xrm.Sdk;
 
 #endregion
 
-namespace LinkDev.CrmLogger.Plugins
+namespace Yagasoft.CrmLogger.Plugins
 {
 	/// <summary>
 	///     This plugin creates log entries using the compressed value in the 'serialised' field.<br />

@@ -224,17 +224,13 @@
     <value>Refer to Yagasoft.com for any enquiries.</value>
     <comment> 'CRMLogger' : Description for Solution</comment>
   </data>
-  <data name="15062:Description,linkdevelopmentldv75324" xml:space="preserve">
-    <value>The default publisher for link development</value>
-    <comment> 'linkdevelopment' : Description for Solution Publisher</comment>
-  </data>
   <data name="15062:LocalizedName,CRMLogger" xml:space="preserve">
     <value>CRM Logger</value>
     <comment> 'CRMLogger' : LocalizedName for Solution</comment>
   </data>
-  <data name="15062:LocalizedName,linkdevelopmentldv75324" xml:space="preserve">
-    <value>LINK Development</value>
-    <comment> 'linkdevelopment' : LocalizedName for Solution Publisher</comment>
+  <data name="15062:LocalizedName,yagasoftys71786" xml:space="preserve">
+    <value>Yagasoft</value>
+    <comment> 'yagasoft' : LocalizedName for Solution Publisher</comment>
   </data>
   <data name="1:Description,ldv_genericconfigurationldv_AssemblyExclusion" xml:space="preserve">
     <value>Enter a Regex. Assembly names matching this Regex will be excluded from log.</value>
