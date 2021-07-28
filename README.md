@@ -1,7 +1,5 @@
 # DynamicsCrm-CrmLogger
 
-(No longer maintained! Combined into [Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution))
-
 [![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-CrmLogger](https://badges.gitter.im/yagasoft/DynamicsCrm-CrmLogger.svg)](https://gitter.im/yagasoft/DynamicsCrm-CrmLogger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Version: 3.1.1.1
@@ -21,6 +19,10 @@ A CRM solution that provides a lot of details when logging from plugins, web-ser
   + Logs to CRM, CSV file, or console
 	+ File logging can be used as a fallback
   + Log files overflow to new files on date or size threshold
+
+### Install
+
+CrmLog class can be found in either Common.cs in the [Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution) repository (for plugins), or [Yagasoft.Libraries](https://www.nuget.org/packages/Yagasoft.Libraries.Common) on NuGet (for web/console apps).
 
 ### Guide
 
@@ -82,11 +84,9 @@ private void Test(CrmLog log)
 }
 ```
 
-CrmLog class can be found in either Common.cs in the [DynamicsCrm-Libraries](https://github.com/yagasoft/DynamicsCrm-Libraries) repository (for plugins), or [LinkDev.Libraries](https://www.nuget.org/packages/LinkDev.Libraries.Common/) on NuGet (for web/console apps).
-
 ### Dependencies
 
-  + Generic Base solution ([DynamicsCrm-BaseSolution](https://github.com/yagasoft/DynamicsCrm-BaseSolution))
+  + Generic Base solution ([Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution))
 		
 ## Changes
 
