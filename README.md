@@ -22,7 +22,7 @@ A CRM solution that provides a lot of details when logging from plugins, web-ser
 
 ### Install
 
-CrmLog class can be found in either Common.cs in the [Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution) repository (for plugins), or [Yagasoft.Libraries](https://www.nuget.org/packages/Yagasoft.Libraries.Common) on NuGet (for web/console apps).
+Import solution [Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution).CrmLog class can be found in either Common.cs in the [Yagasoft.Libraries.File](https://www.nuget.org/packages/Yagasoft.Libraries.Common.File) on NuGet (for use in plugins), or [Yagasoft.Libraries](https://www.nuget.org/packages/Yagasoft.Libraries.Common) (for web/console apps).
 
 ### Guide
 
