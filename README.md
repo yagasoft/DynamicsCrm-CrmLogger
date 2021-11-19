@@ -17,6 +17,11 @@ A CRM solution that provides a lot of details when logging from plugins. It prov
 	+ For automatic logging, use CrmLogger.Fody from NuGet
   + Automatically parses the exception details on passing an Exception object to the log
 
+### Install
+
+ + Import Common solution ([Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution))
+ + PluginLogger class can be found in Common.cs in the [DynamicsCrm-Libraries](https://github.com/yagasoft/DynamicsCrm-Libraries) repository.
+
 ### Guide
 
   + Set the log level in the Generic Configuration entity, on the 'Logging' form
@@ -78,12 +83,6 @@ private void Test(CrmLog log)
 }
 ```
 
-PluginLogger class can be found in Common.cs in the [DynamicsCrm-Libraries](https://github.com/yagasoft/DynamicsCrm-Libraries) repository.
-
-### Dependencies
-
-  + Common solution ([Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution))
-		
 ## Changes
 
 #### _v3.2.1.1 (2021-11-20)_
