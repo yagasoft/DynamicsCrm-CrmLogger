@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Yagasoft.CrmLogger.Plugins</RootNamespace>
     <AssemblyName>Yagasoft.CrmLogger.Plugins</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,11 +76,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common.cs" />
+    <Compile Include="CrmSchema.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrmSchema.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CrmSchemaBase.cs">
+      <DependentUpon>CrmSchema.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CrmSchemaContracts.cs">
+      <DependentUpon>CrmSchema.tt</DependentUpon>
+    </Compile>
     <Compile Include="ProcessLogPayload.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="CrmSchema-Config.json" />
     <None Include="key.snk" />
     <None Include="packages.config" />
-    <None Include="PluginRegExt.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CrmSchema.tt">
+      <Generator>CrmCodeGenerator2011</Generator>
+      <LastGenOutput>CrmSchema.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

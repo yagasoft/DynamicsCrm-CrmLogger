@@ -2,23 +2,20 @@
 
 [![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-CrmLogger](https://badges.gitter.im/yagasoft/DynamicsCrm-CrmLogger.svg)](https://gitter.im/yagasoft/DynamicsCrm-CrmLogger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Version: 3.1.1.1
+### Version: 3.2.1.1
 ---
 
-A CRM solution that provides a lot of details when logging from plugins, web-services, and console apps. It provides a tree view of function calls as well.
+A CRM solution that provides a lot of details when logging from plugins. It provides a tree view of function calls as well.
 
 ### Features
 
   + Log each whole execution in its own record
-	+ Log works in plugins, custom steps, console apps, and web services
+	+ Log works in plugins and custom steps
   + Defers log to the end of the execution for improved performance
   + Create parent log container and defers creating entries to the async job for performance
   + Option for logging function start and end (manually)
 	+ For automatic logging, use CrmLogger.Fody from NuGet
   + Automatically parses the exception details on passing an Exception object to the log
-  + Logs to CRM, CSV file, or console
-	+ File logging can be used as a fallback
-  + Log files overflow to new files on date or size threshold
 
 ### Guide
 
@@ -33,7 +30,8 @@ The following is a sample of how to log in a plugin.
 public void Execute(IServiceProvider serviceProvider)
 {
 	var context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
-	
+	var log = new PluginLogger(serviceProvider);
+
 	try
 	{
 		log.SetRegarding(context.PrimaryEntityName, context.PrimaryEntityId);
@@ -50,7 +48,7 @@ public void Execute(IServiceProvider serviceProvider)
 	catch (Exception e)
 	{
 		log.ExecutionFailed();
-		log.Log(e, context);
+		log.Log(e);
 
 		throw new InvalidPluginExecutionException(e.Message, e);
 	}
@@ -80,14 +78,16 @@ private void Test(CrmLog log)
 }
 ```
 
-CrmLog class can be found in either Common.cs in the [DynamicsCrm-Libraries](https://github.com/yagasoft/DynamicsCrm-Libraries) repository (for plugins), or [LinkDev.Libraries](https://www.nuget.org/packages/LinkDev.Libraries.Common/) on NuGet (for web/console apps).
+PluginLogger class can be found in Common.cs in the [DynamicsCrm-Libraries](https://github.com/yagasoft/DynamicsCrm-Libraries) repository.
 
 ### Dependencies
 
-  + Generic Base solution ([DynamicsCrm-BaseSolution](https://github.com/yagasoft/DynamicsCrm-BaseSolution))
+  + Common solution ([Dynamics365-YsCommonSolution](https://github.com/yagasoft/Dynamics365-YsCommonSolution))
 		
 ## Changes
 
+#### _v3.2.1.1 (2021-11-20)_
++ Improved: reworked the CRM Logger to be leaner and only concerned with CRM Plugins. Use NLog for everything else.
 #### _v3.1.1.1 (2019-02-27)_
 + Changed: moved to a new namespace
 #### _v2.1.1.1 (2018-09-05)_
