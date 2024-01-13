@@ -2,7 +2,6 @@
 
 [![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-CrmLogger](https://badges.gitter.im/yagasoft/DynamicsCrm-CrmLogger.svg)](https://gitter.im/yagasoft/DynamicsCrm-CrmLogger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Version: 3.2.1.1
 ---
 
 A CRM solution that provides a lot of details when logging from plugins. It provides a tree view of function calls as well.
@@ -84,14 +83,7 @@ private void Test(CrmLog log)
 ```
 
 ## Changes
-
-#### _v3.2.1.1 (2021-11-20)_
-+ Improved: reworked the CRM Logger to be leaner and only concerned with CRM Plugins. Use NLog for everything else.
-#### _v3.1.1.1 (2019-02-27)_
-+ Changed: moved to a new namespace
-#### _v2.1.1.1 (2018-09-05)_
-+ Added: processing plugin
-+ Changed: cleaned the project of obsolete components
++ Check Releases page for the later changes
 
 ---
-**Copyright &copy; by Ahmed Elsawalhy ([Yagasoft](http://yagasoft.com))** -- _GPL v3 Licence_
+**Copyright &copy; by Ahmed Elsawalhy ([Yagasoft](https://yagasoft.com))** -- _GPL v3 Licence_
