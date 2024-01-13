@@ -33,7 +33,7 @@ namespace Yagasoft.CrmLogger.Plugins
 			// get the triggering record
 			var target = (Entity)Context.InputParameters["Target"];
 
-			var rawSerialisedEntries = target.GetAttributeValue<string>("ldv_serialisedlogentries");
+			var rawSerialisedEntries = target.GetAttributeValue<string>("ys_serialisedlogentries");
 
 			if (rawSerialisedEntries.IsEmpty())
 			{

@@ -2399,12 +2399,12 @@ namespace Yagasoft.CrmLogger.Plugins
 	#region Log
 
 	/// <summary>
-	/// 'ldv_log'.<br />
+	/// 'ys_log'.<br />
 	/// 
 	/// </summary>
 	[ExcludeFromCodeCoverage]
 	[DebuggerNonUserCode]
-	[DataContract, EntityLogicalName("ldv_log")]
+	[DataContract, EntityLogicalName("ys_log")]
 	public partial class Log : GeneratedEntity<Log.RelationName>
 	{
 		public Log() : base(EntityLogicalName)
@@ -2419,9 +2419,9 @@ namespace Yagasoft.CrmLogger.Plugins
 		{ }
 
 		public const string DisplayName = "Log";
-		public const string SchemaName = "ldv_log";
-		public const string EntityLogicalName = "ldv_log";
-		public const int EntityTypeCode = 10115;
+		public const string SchemaName = "ys_log";
+		public const string EntityLogicalName = "ys_log";
+		public const int EntityTypeCode = 10168;
 		
 		public class RelationName : RelationNameBase
 		{
@@ -2431,14 +2431,14 @@ namespace Yagasoft.CrmLogger.Plugins
 
 		#region Attributes
 
-		[AttributeLogicalName("ldv_logid")]
+		[AttributeLogicalName("ys_logid")]
 		public override System.Guid Id
 		{
 			get => (LogId == null || LogId == Guid.Empty) ? base.Id : LogId.GetValueOrDefault();
 			set
 			{
                 if (value == Guid.Empty) {
-                    Attributes.Remove("ldv_logid");
+                    Attributes.Remove("ys_logid");
                     base.Id = value;
                 } else {
 				    LogId = value;
@@ -2446,665 +2446,17 @@ namespace Yagasoft.CrmLogger.Plugins
 			}
 		}
 
-        /// <summary>
-        ///  
-		/// 'CreatedBy'.<br />
-        /// Unique identifier of the user who created the record.
-        /// </summary>
-		[AttributeLogicalName("createdby")]
-		public Guid? CreatedBy
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("createdby");
-                return value?.Id;
-			}
-		}
-
-        public string CreatedByName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("createdby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'CreatedOn'.<br />
-        /// Date and time when the record was created.
-        /// </summary>
-		[AttributeLogicalName("createdon")]
-		public DateTime? CreatedOn
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("createdon");
-			    return value;
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'CreatedOnBehalfBy'.<br />
-        /// Unique identifier of the delegate user who created the record.
-        /// </summary>
-		[AttributeLogicalName("createdonbehalfby")]
-		public Guid? CreatedByDelegate
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("createdonbehalfby");
-                return value?.Id;
-			}
-		}
-
-        public string CreatedByDelegateName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("createdonbehalfby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        /// [Range(-2147483648, 2147483647)] 
-		/// 'ImportSequenceNumber'.<br />
-        /// Sequence number of the import that created this record.
-        /// </summary>
-		[AttributeLogicalName("importsequencenumber")]
-		public int? ImportSequenceNumber
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("importsequencenumber");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("importsequencenumber", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_assembly")]
+		[AttributeLogicalName("ys_assembly")]
 		public string Assembly
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_assembly");
+				var value = GetAttributeValue<string>("ys_assembly");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_assembly", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_entryclass")]
-		public string EntryClass
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_entryclass");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_entryclass", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_entryfunction")]
-		public string EntryFunction
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_entryfunction");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_entryfunction", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_exceptionlogentry")]
-		public Guid? ExceptionLogEntry
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("ldv_exceptionlogentry");
-                return value?.Id;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("ldv_exceptionlogentry", new EntityReference("ldv_logentry", value.Value));
-                else
-	                SetAttributeValue("ldv_exceptionlogentry", value);
-			}
-		}
-
-        public string ExceptionLogEntryName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("ldv_exceptionlogentry");
-                return value?.Name;
-            }
-        }
-
-		[AttributeLogicalName("ldv_exceptionmessage")]
-		public string ExceptionMessage
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_exceptionmessage");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_exceptionmessage", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_exceptionthrown")]
-		public bool? ExceptionThrown
-		{
-			get
-			{
-				var value = GetAttributeValue<bool?>("ldv_exceptionthrown");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_exceptionthrown", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_executionduration")]
-		public int? ExecDurationms
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("ldv_executionduration");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_executionduration", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_executionendstate")]
-		public ExecEndStateEnum? ExecEndState
-		{
-			get
-			{
-				var value = GetAttributeValue<OptionSetValue>("ldv_executionendstate");
-				return (ExecEndStateEnum?)value?.Value;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("ldv_executionendstate", new OptionSetValue((int) value.Value));
-                else
-	                SetAttributeValue("ldv_executionendstate", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_information")]
-		public string Information
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_information");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_information", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'ldv_logId'.<br />
-        /// Unique identifier for entity instances
-        /// </summary>
-		[AttributeLogicalName("ldv_logid")]
-		public Guid? LogId
-		{
-			get
-			{
-				var value = GetAttributeValue<Guid?>("ldv_logid");
-			    return value;
-			}
-			set
-			{
-                if (value != null)
-	                SetAttributeValue("ldv_logid", value);
-				if (value != null) base.Id = value.Value;
-				else Id = System.Guid.Empty;
-			}
-		}
-
-        /// <summary>
-        /// [MaxLength=400] 
-		/// 'ldv_name'.<br />
-        /// The name of the custom entity.
-        /// </summary>
-		[AttributeLogicalName("ldv_name")]
-		public string LogID
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_name");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_name", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_recordurl")]
-		public string RecordURL
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_recordurl");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_recordurl", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_regardingid")]
-		public string RegardingID
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_regardingid");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_regardingid", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_regardingname")]
-		public string RecordName
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_regardingname");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_regardingname", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_regardingtype")]
-		public string RegardingType
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_regardingtype");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_regardingtype", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_serialisedlogentries")]
-		public string SerialisedLogEntries
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_serialisedlogentries");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_serialisedlogentries", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_startdate")]
-		public DateTime? StartDate
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("ldv_startdate");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_startdate", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_title")]
-		public string Title
-		{
-			get
-			{
-				var value = GetAttributeValue<string>("ldv_title");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ldv_title", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_user")]
-		public Guid? User
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("ldv_user");
-                return value?.Id;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("ldv_user", new EntityReference("systemuser", value.Value));
-                else
-	                SetAttributeValue("ldv_user", value);
-			}
-		}
-
-        public string UserName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("ldv_user");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'ModifiedBy'.<br />
-        /// Unique identifier of the user who modified the record.
-        /// </summary>
-		[AttributeLogicalName("modifiedby")]
-		public Guid? ModifiedBy
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("modifiedby");
-                return value?.Id;
-			}
-		}
-
-        public string ModifiedByName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("modifiedby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'ModifiedOn'.<br />
-        /// Date and time when the record was modified.
-        /// </summary>
-		[AttributeLogicalName("modifiedon")]
-		public DateTime? ModifiedOn
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("modifiedon");
-			    return value;
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'ModifiedOnBehalfBy'.<br />
-        /// Unique identifier of the delegate user who modified the record.
-        /// </summary>
-		[AttributeLogicalName("modifiedonbehalfby")]
-		public Guid? ModifiedByDelegate
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("modifiedonbehalfby");
-                return value?.Id;
-			}
-		}
-
-        public string ModifiedByDelegateName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("modifiedonbehalfby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OverriddenCreatedOn'.<br />
-        /// Date and time that the record was migrated.
-        /// </summary>
-		[AttributeLogicalName("overriddencreatedon")]
-		public DateTime? RecordCreatedOn
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("overriddencreatedon");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("overriddencreatedon", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'OwnerId'.<br />
-        /// Owner Id
-        /// </summary>
-		[AttributeLogicalName("ownerid")]
-		public EntityReference Owner
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("ownerid");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ownerid", value);
-			}
-		}
-
-        public string OwnerName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("ownerid");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OwningBusinessUnit'.<br />
-        /// Unique identifier for the business unit that owns the record
-        /// </summary>
-		[AttributeLogicalName("owningbusinessunit")]
-		public Guid? OwningBusinessUnit
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("owningbusinessunit");
-                return value?.Id;
-			}
-		}
-
-        public string OwningBusinessUnitName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("owningbusinessunit");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OwningTeam'.<br />
-        /// Unique identifier for the team that owns the record.
-        /// </summary>
-		[AttributeLogicalName("owningteam")]
-		public Guid? OwningTeam
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("owningteam");
-                return value?.Id;
-			}
-		}
-
-        public string OwningTeamName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("owningteam");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OwningUser'.<br />
-        /// Unique identifier for the user that owns the record.
-        /// </summary>
-		[AttributeLogicalName("owninguser")]
-		public Guid? OwningUser
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("owninguser");
-                return value?.Id;
-			}
-		}
-
-        public string OwningUserName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("owninguser");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'statecode'.<br />
-        /// Status of the Log
-        /// </summary>
-		[AttributeLogicalName("statecode")]
-		public StatusEnum? Status
-		{
-			get
-			{
-				var value = GetAttributeValue<OptionSetValue>("statecode");
-				return (StatusEnum?)value?.Value;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("statecode", new OptionSetValue((int) value.Value));
-                else
-	                SetAttributeValue("statecode", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'statuscode'.<br />
-        /// Reason for the status of the Log
-        /// </summary>
-		[AttributeLogicalName("statuscode")]
-		public StatusReasonEnum? StatusReason
-		{
-			get
-			{
-				var value = GetAttributeValue<OptionSetValue>("statuscode");
-				return (StatusReasonEnum?)value?.Value;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("statuscode", new OptionSetValue((int) value.Value));
-                else
-	                SetAttributeValue("statuscode", value);
-			}
-		}
-
-        /// <summary>
-        /// [Range(-1, 2147483647)] 
-		/// 'TimeZoneRuleVersionNumber'.<br />
-        /// For internal use only.
-        /// </summary>
-		[AttributeLogicalName("timezoneruleversionnumber")]
-		public int? TimeZoneRuleVersionNumber
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("timezoneruleversionnumber");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("timezoneruleversionnumber", value);
-			}
-		}
-
-        /// <summary>
-        /// [Range(-1, 2147483647)] 
-		/// 'UTCConversionTimeZoneCode'.<br />
-        /// Time zone code that was in use when the record was created.
-        /// </summary>
-		[AttributeLogicalName("utcconversiontimezonecode")]
-		public int? UTCConversionTimeZoneCode
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("utcconversiontimezonecode");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("utcconversiontimezonecode", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'VersionNumber'.<br />
-        /// Version Number
-        /// </summary>
-		[AttributeLogicalName("versionnumber")]
-		public long? VersionNumber
-		{
-			get
-			{
-				var value = GetAttributeValue<long?>("versionnumber");
-			    return value;
+                SetAttributeValue("ys_assembly", value);
 			}
 		}
 
@@ -3150,6 +2502,131 @@ namespace Yagasoft.CrmLogger.Plugins
 			}
 		}
 
+		[AttributeLogicalName("ys_entryclass")]
+		public string EntryClass
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_entryclass");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_entryclass", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_entryfunction")]
+		public string EntryFunction
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_entryfunction");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_entryfunction", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_exceptionlogentry")]
+		public Guid? ExceptionLogEntry
+		{
+			get
+			{
+				var value = GetAttributeValue<EntityReference>("ys_exceptionlogentry");
+                return value?.Id;
+			}
+			set
+			{
+                if (value != null) SetAttributeValue("ys_exceptionlogentry", new EntityReference("ys_logentry", value.Value));
+                else
+	                SetAttributeValue("ys_exceptionlogentry", value);
+			}
+		}
+
+        public string ExceptionLogEntryName
+        {
+		    get
+		    {
+				var value = GetAttributeValue<EntityReference>("ys_exceptionlogentry");
+                return value?.Name;
+            }
+        }
+
+		[AttributeLogicalName("ys_exceptionmessage")]
+		public string ExceptionMessage
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_exceptionmessage");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_exceptionmessage", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_exceptionthrown")]
+		public bool? ExceptionThrown
+		{
+			get
+			{
+				var value = GetAttributeValue<bool?>("ys_exceptionthrown");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_exceptionthrown", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_executionduration")]
+		public int? ExecDurationms
+		{
+			get
+			{
+				var value = GetAttributeValue<int?>("ys_executionduration");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_executionduration", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_executionendstate")]
+		public ExecEndStateEnum? ExecEndState
+		{
+			get
+			{
+				var value = GetAttributeValue<OptionSetValue>("ys_executionendstate");
+				return (ExecEndStateEnum?)value?.Value;
+			}
+			set
+			{
+                if (value != null) SetAttributeValue("ys_executionendstate", new OptionSetValue((int) value.Value));
+                else
+	                SetAttributeValue("ys_executionendstate", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_information")]
+		public string Information
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_information");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_information", value);
+			}
+		}
+
 		[AttributeLogicalName("ys_isolationmodevalue")]
 		public GlobalEnums.PluginIsolationMode? IsolationMode
 		{
@@ -3163,6 +2640,28 @@ namespace Yagasoft.CrmLogger.Plugins
                 if (value != null) SetAttributeValue("ys_isolationmodevalue", new OptionSetValue((int) value.Value));
                 else
 	                SetAttributeValue("ys_isolationmodevalue", value);
+			}
+		}
+
+        /// <summary>
+        ///  
+		/// 'ys_logId'.<br />
+        /// Unique identifier for entity instances
+        /// </summary>
+		[AttributeLogicalName("ys_logid")]
+		public Guid? LogId
+		{
+			get
+			{
+				var value = GetAttributeValue<Guid?>("ys_logid");
+			    return value;
+			}
+			set
+			{
+                if (value != null)
+	                SetAttributeValue("ys_logid", value);
+				if (value != null) base.Id = value.Value;
+				else Id = System.Guid.Empty;
 			}
 		}
 
@@ -3196,6 +2695,25 @@ namespace Yagasoft.CrmLogger.Plugins
 			}
 		}
 
+        /// <summary>
+        /// [MaxLength=400] 
+		/// 'ys_name'.<br />
+        /// The name of the custom entity.
+        /// </summary>
+		[AttributeLogicalName("ys_name")]
+		public string LogID
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_name");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_name", value);
+			}
+		}
+
 		[AttributeLogicalName("ys_operationid")]
 		public string OperationID
 		{
@@ -3207,6 +2725,76 @@ namespace Yagasoft.CrmLogger.Plugins
 			set
 			{
                 SetAttributeValue("ys_operationid", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_recordurl")]
+		public string RecordURL
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_recordurl");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_recordurl", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_regardingid")]
+		public string RegardingID
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_regardingid");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_regardingid", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_regardingname")]
+		public string RecordName
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_regardingname");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_regardingname", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_regardingtype")]
+		public string RegardingType
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_regardingtype");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_regardingtype", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_serialisedlogentries")]
+		public string SerialisedLogEntries
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_serialisedlogentries");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_serialisedlogentries", value);
 			}
 		}
 
@@ -3226,51 +2814,70 @@ namespace Yagasoft.CrmLogger.Plugins
 			}
 		}
 
+		[AttributeLogicalName("ys_startdate")]
+		public DateTime? StartDate
+		{
+			get
+			{
+				var value = GetAttributeValue<DateTime?>("ys_startdate");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_startdate", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_title")]
+		public string Title
+		{
+			get
+			{
+				var value = GetAttributeValue<string>("ys_title");
+			    return value;
+			}
+			set
+			{
+                SetAttributeValue("ys_title", value);
+			}
+		}
+
+		[AttributeLogicalName("ys_user")]
+		public Guid? User
+		{
+			get
+			{
+				var value = GetAttributeValue<EntityReference>("ys_user");
+                return value?.Id;
+			}
+			set
+			{
+                if (value != null) SetAttributeValue("ys_user", new EntityReference("systemuser", value.Value));
+                else
+	                SetAttributeValue("ys_user", value);
+			}
+		}
+
+        public string UserName
+        {
+		    get
+		    {
+				var value = GetAttributeValue<EntityReference>("ys_user");
+                return value?.Name;
+            }
+        }
+
 		#endregion
 
 		#region Relationships
 
 		
-		/// <summary>
-		/// 1:N, 'ldv_ldv_log_ldv_logentry'
-		/// </summary>
-		[RelationshipSchemaName("ldv_ldv_log_ldv_logentry")]
-		public LogEntry[] LogEntrysOfParentLog
-		{
-			get => GetRelatedEntities<LogEntry>("ldv_ldv_log_ldv_logentry", null)?.ToArray();
-			set
-			{
-				if (RelatedEntities.IsReadOnly) { throw new Exception("Relationship collection is read only. The context that loaded this entity must be used to create relationships."); }
-                value?.ToList().ForEach(entity => entity.LogicalName = (string) value.First().GetType().GetField("EntityLogicalName").GetRawConstantValue());
-				SetRelatedEntities("ldv_ldv_log_ldv_logentry", null, value);
-			}
-		}
-		
-		/// <summary>
-		/// N:1, 'ldv_ldv_logentry_ldv_log_ExceptionLogEntry'
-		/// </summary>
-		[RelationshipSchemaName("ldv_ldv_logentry_ldv_log_ExceptionLogEntry"), AttributeLogicalName("ldv_exceptionlogentry")]
-		public LogEntry LogEntryAsExceptionLogEntry
-		{
-			get => GetRelatedEntity<LogEntry>("ldv_ldv_logentry_ldv_log_ExceptionLogEntry", null);
-			set
-			{
-				if (RelatedEntities.IsReadOnly) { throw new Exception("Relationship collection is read only. The context that loaded this entity must be used to create relationships."); }
-                if (value != null) value.LogicalName = (string) value.GetType().GetField("EntityLogicalName").GetRawConstantValue();
-				SetRelatedEntity<LogEntry>("ldv_ldv_logentry_ldv_log_ExceptionLogEntry", null, value);
-			}
-		}
-		
 		public static class RelationNames {
-			public static RelationName LogEntrysOfParentLog = new RelationName("LogEntrysOfParentLog");
-			public static RelationName LogEntryAsExceptionLogEntry = new RelationName("LogEntryAsExceptionLogEntry");
 		}
 
 		public override IDictionary<string, object[]> RelationProperties { get {
 			if (relationProperties != null) return relationProperties;
 			relationProperties = new Dictionary<string, object[]>();
-			relationProperties["LogEntrysOfParentLog"] = new object[] { "LogEntrysOfParentLog", "ldv_logentry", "ldv_log", "ldv_parentlogid", "ldv_logid", "ldv_logid", "ldv_logid", "ldv_ldv_log_ldv_logentry", typeof (LogEntry[]) };
-			relationProperties["LogEntryAsExceptionLogEntry"] = new object[] { "LogEntryAsExceptionLogEntry", "ldv_logentry", "ldv_log", "ldv_logentryid", "ldv_exceptionlogentry", "ldv_logid", "ldv_logid", "ldv_ldv_logentry_ldv_log_ExceptionLogEntry", typeof (LogEntry) };
 			return relationProperties; } }
 
 		#endregion
@@ -3284,7 +2891,7 @@ namespace Yagasoft.CrmLogger.Plugins
                 if (p.PropertyType == typeof(Guid))
                 {
                     base.Id = (Guid)value;
-                    Attributes["ldv_logid"] = base.Id;
+                    Attributes["ys_logid"] = base.Id;
                 }
                 else if (p.Name == "FormattedValues")
                 {
@@ -3311,18 +2918,6 @@ namespace Yagasoft.CrmLogger.Plugins
 			Failure = 1,
 		}
 	
-		public enum StatusEnum
-		{
-			Active = 0,
-			Inactive = 1,
-		}
-	
-		public enum StatusReasonEnum
-		{
-			Active = 1,
-			Inactive = 2,
-		}
-	
 		#endregion
 
 		#region Metadata
@@ -3336,12 +2931,12 @@ namespace Yagasoft.CrmLogger.Plugins
 	#region LogEntry
 
 	/// <summary>
-	/// 'ldv_logentry'.<br />
+	/// 'ys_logentry'.<br />
 	/// 
 	/// </summary>
 	[ExcludeFromCodeCoverage]
 	[DebuggerNonUserCode]
-	[DataContract, EntityLogicalName("ldv_logentry")]
+	[DataContract, EntityLogicalName("ys_logentry")]
 	public partial class LogEntry : GeneratedEntity<LogEntry.RelationName>
 	{
 		public LogEntry() : base(EntityLogicalName)
@@ -3356,9 +2951,9 @@ namespace Yagasoft.CrmLogger.Plugins
 		{ }
 
 		public const string DisplayName = "Log Entry";
-		public const string SchemaName = "ldv_logentry";
-		public const string EntityLogicalName = "ldv_logentry";
-		public const int EntityTypeCode = 10116;
+		public const string SchemaName = "ys_logentry";
+		public const string EntityLogicalName = "ys_logentry";
+		public const int EntityTypeCode = 10169;
 		
 		public class RelationName : RelationNameBase
 		{
@@ -3368,14 +2963,14 @@ namespace Yagasoft.CrmLogger.Plugins
 
 		#region Attributes
 
-		[AttributeLogicalName("ldv_logentryid")]
+		[AttributeLogicalName("ys_logentryid")]
 		public override System.Guid Id
 		{
 			get => (LogEntryId == null || LogEntryId == Guid.Empty) ? base.Id : LogEntryId.GetValueOrDefault();
 			set
 			{
                 if (value == Guid.Empty) {
-                    Attributes.Remove("ldv_logentryid");
+                    Attributes.Remove("ys_logentryid");
                     base.Id = value;
                 } else {
 				    LogEntryId = value;
@@ -3383,383 +2978,301 @@ namespace Yagasoft.CrmLogger.Plugins
 			}
 		}
 
-        /// <summary>
-        ///  
-		/// 'CreatedBy'.<br />
-        /// Unique identifier of the user who created the record.
-        /// </summary>
-		[AttributeLogicalName("createdby")]
-		public Guid? CreatedBy
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("createdby");
-                return value?.Id;
-			}
-		}
-
-        public string CreatedByName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("createdby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'CreatedOn'.<br />
-        /// Date and time when the record was created.
-        /// </summary>
-		[AttributeLogicalName("createdon")]
-		public DateTime? CreatedOn
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("createdon");
-			    return value;
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'CreatedOnBehalfBy'.<br />
-        /// Unique identifier of the delegate user who created the record.
-        /// </summary>
-		[AttributeLogicalName("createdonbehalfby")]
-		public Guid? CreatedByDelegate
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("createdonbehalfby");
-                return value?.Id;
-			}
-		}
-
-        public string CreatedByDelegateName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("createdonbehalfby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        /// [Range(-2147483648, 2147483647)] 
-		/// 'ImportSequenceNumber'.<br />
-        /// Sequence number of the import that created this record.
-        /// </summary>
-		[AttributeLogicalName("importsequencenumber")]
-		public int? ImportSequenceNumber
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("importsequencenumber");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("importsequencenumber", value);
-			}
-		}
-
-		[AttributeLogicalName("ldv_assembly")]
+		[AttributeLogicalName("ys_assembly")]
 		public string Assembly
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_assembly");
+				var value = GetAttributeValue<string>("ys_assembly");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_assembly", value);
+                SetAttributeValue("ys_assembly", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_callingfunction")]
+		[AttributeLogicalName("ys_callingfunction")]
 		public string CallingFunction
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_callingfunction");
+				var value = GetAttributeValue<string>("ys_callingfunction");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_callingfunction", value);
+                SetAttributeValue("ys_callingfunction", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_class")]
+		[AttributeLogicalName("ys_class")]
 		public string Class
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_class");
+				var value = GetAttributeValue<string>("ys_class");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_class", value);
+                SetAttributeValue("ys_class", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_entryindex")]
+		[AttributeLogicalName("ys_entryindex")]
 		public int? Index
 		{
 			get
 			{
-				var value = GetAttributeValue<int?>("ldv_entryindex");
+				var value = GetAttributeValue<int?>("ys_entryindex");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_entryindex", value);
+                SetAttributeValue("ys_entryindex", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_exception")]
+		[AttributeLogicalName("ys_exception")]
 		public string Exception
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_exception");
+				var value = GetAttributeValue<string>("ys_exception");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_exception", value);
+                SetAttributeValue("ys_exception", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_exceptionsource")]
+		[AttributeLogicalName("ys_exceptionsource")]
 		public string ExceptionSource
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_exceptionsource");
+				var value = GetAttributeValue<string>("ys_exceptionsource");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_exceptionsource", value);
+                SetAttributeValue("ys_exceptionsource", value);
 			}
 		}
 
         /// <summary>
         ///  
-		/// 'ldv_ExceptionThrown'.<br />
+		/// 'ys_ExceptionThrown'.<br />
         /// Function threw an exception.
         /// </summary>
-		[AttributeLogicalName("ldv_exceptionthrown")]
+		[AttributeLogicalName("ys_exceptionthrown")]
 		public bool? ExceptionThrown
 		{
 			get
 			{
-				var value = GetAttributeValue<bool?>("ldv_exceptionthrown");
+				var value = GetAttributeValue<bool?>("ys_exceptionthrown");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_exceptionthrown", value);
+                SetAttributeValue("ys_exceptionthrown", value);
 			}
 		}
 
         /// <summary>
         /// [Range(0, 2147483647)] 
-		/// 'ldv_ExecutionDuration'.<br />
+		/// 'ys_ExecutionDuration'.<br />
         /// The time it took for the execution to finish in milliseconds.
         /// </summary>
-		[AttributeLogicalName("ldv_executionduration")]
+		[AttributeLogicalName("ys_executionduration")]
 		public int? ExecDurationms
 		{
 			get
 			{
-				var value = GetAttributeValue<int?>("ldv_executionduration");
+				var value = GetAttributeValue<int?>("ys_executionduration");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_executionduration", value);
+                SetAttributeValue("ys_executionduration", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_information")]
+		[AttributeLogicalName("ys_information")]
 		public string Information
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_information");
+				var value = GetAttributeValue<string>("ys_information");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_information", value);
+                SetAttributeValue("ys_information", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_innerexception")]
+		[AttributeLogicalName("ys_innerexception")]
 		public string InnerException
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_innerexception");
+				var value = GetAttributeValue<string>("ys_innerexception");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_innerexception", value);
+                SetAttributeValue("ys_innerexception", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_innerexceptionmessage")]
+		[AttributeLogicalName("ys_innerexceptionmessage")]
 		public string InnerExceptionMessage
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_innerexceptionmessage");
+				var value = GetAttributeValue<string>("ys_innerexceptionmessage");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_innerexceptionmessage", value);
+                SetAttributeValue("ys_innerexceptionmessage", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_innerexceptionsource")]
+		[AttributeLogicalName("ys_innerexceptionsource")]
 		public string InnerExceptionSource
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_innerexceptionsource");
+				var value = GetAttributeValue<string>("ys_innerexceptionsource");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_innerexceptionsource", value);
+                SetAttributeValue("ys_innerexceptionsource", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_innerexceptionstacktrace")]
+		[AttributeLogicalName("ys_innerexceptionstacktrace")]
 		public string InnerExceptionStackTrace
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_innerexceptionstacktrace");
+				var value = GetAttributeValue<string>("ys_innerexceptionstacktrace");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_innerexceptionstacktrace", value);
+                SetAttributeValue("ys_innerexceptionstacktrace", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_level")]
+		[AttributeLogicalName("ys_level")]
 		public LevelEnum? Level
 		{
 			get
 			{
-				var value = GetAttributeValue<OptionSetValue>("ldv_level");
+				var value = GetAttributeValue<OptionSetValue>("ys_level");
 				return (LevelEnum?)value?.Value;
 			}
 			set
 			{
-                if (value != null) SetAttributeValue("ldv_level", new OptionSetValue((int) value.Value));
+                if (value != null) SetAttributeValue("ys_level", new OptionSetValue((int) value.Value));
                 else
-	                SetAttributeValue("ldv_level", value);
+	                SetAttributeValue("ys_level", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_linenumber")]
+		[AttributeLogicalName("ys_linenumber")]
 		public int? Line
 		{
 			get
 			{
-				var value = GetAttributeValue<int?>("ldv_linenumber");
+				var value = GetAttributeValue<int?>("ys_linenumber");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_linenumber", value);
+                SetAttributeValue("ys_linenumber", value);
 			}
 		}
 
         /// <summary>
         ///  
-		/// 'ldv_logentryId'.<br />
+		/// 'ys_logentryId'.<br />
         /// Unique identifier for entity instances
         /// </summary>
-		[AttributeLogicalName("ldv_logentryid")]
+		[AttributeLogicalName("ys_logentryid")]
 		public Guid? LogEntryId
 		{
 			get
 			{
-				var value = GetAttributeValue<Guid?>("ldv_logentryid");
+				var value = GetAttributeValue<Guid?>("ys_logentryid");
 			    return value;
 			}
 			set
 			{
                 if (value != null)
-	                SetAttributeValue("ldv_logentryid", value);
+	                SetAttributeValue("ys_logentryid", value);
 				if (value != null) base.Id = value.Value;
 				else Id = System.Guid.Empty;
 			}
 		}
 
-		[AttributeLogicalName("ldv_message")]
+		[AttributeLogicalName("ys_message")]
 		public string Message
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_message");
+				var value = GetAttributeValue<string>("ys_message");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_message", value);
+                SetAttributeValue("ys_message", value);
 			}
 		}
 
         /// <summary>
         /// [MaxLength=400] 
-		/// 'ldv_name'.<br />
+		/// 'ys_name'.<br />
         /// The name of the custom entity.
         /// </summary>
-		[AttributeLogicalName("ldv_name")]
+		[AttributeLogicalName("ys_name")]
 		public string Name
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_name");
+				var value = GetAttributeValue<string>("ys_name");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_name", value);
+                SetAttributeValue("ys_name", value);
 			}
 		}
 
         /// <summary>
         ///  
-		/// 'ldv_ParentLogEntryId'.<br />
+		/// 'ys_ParentLogEntryId'.<br />
         /// Unique identifier for Log Entry associated with Log Entry.
         /// </summary>
-		[AttributeLogicalName("ldv_parentlogentryid")]
+		[AttributeLogicalName("ys_parentlogentryid")]
 		public Guid? ParentLogEntry
 		{
 			get
 			{
-				var value = GetAttributeValue<EntityReference>("ldv_parentlogentryid");
+				var value = GetAttributeValue<EntityReference>("ys_parentlogentryid");
                 return value?.Id;
 			}
 			set
 			{
-                if (value != null) SetAttributeValue("ldv_parentlogentryid", new EntityReference("ldv_logentry", value.Value));
+                if (value != null) SetAttributeValue("ys_parentlogentryid", new EntityReference("ys_logentry", value.Value));
                 else
-	                SetAttributeValue("ldv_parentlogentryid", value);
+	                SetAttributeValue("ys_parentlogentryid", value);
 			}
 		}
 
@@ -3767,29 +3280,29 @@ namespace Yagasoft.CrmLogger.Plugins
         {
 		    get
 		    {
-				var value = GetAttributeValue<EntityReference>("ldv_parentlogentryid");
+				var value = GetAttributeValue<EntityReference>("ys_parentlogentryid");
                 return value?.Name;
             }
         }
 
         /// <summary>
         ///  
-		/// 'ldv_ParentLogId'.<br />
+		/// 'ys_ParentLogId'.<br />
         /// Unique identifier for Log associated with Log Entry.
         /// </summary>
-		[AttributeLogicalName("ldv_parentlogid")]
+		[AttributeLogicalName("ys_parentlogid")]
 		public Guid? ParentLog
 		{
 			get
 			{
-				var value = GetAttributeValue<EntityReference>("ldv_parentlogid");
+				var value = GetAttributeValue<EntityReference>("ys_parentlogid");
                 return value?.Id;
 			}
 			set
 			{
-                if (value != null) SetAttributeValue("ldv_parentlogid", new EntityReference("ldv_log", value.Value));
+                if (value != null) SetAttributeValue("ys_parentlogid", new EntityReference("ys_log", value.Value));
                 else
-	                SetAttributeValue("ldv_parentlogid", value);
+	                SetAttributeValue("ys_parentlogid", value);
 			}
 		}
 
@@ -3797,80 +3310,80 @@ namespace Yagasoft.CrmLogger.Plugins
         {
 		    get
 		    {
-				var value = GetAttributeValue<EntityReference>("ldv_parentlogid");
+				var value = GetAttributeValue<EntityReference>("ys_parentlogid");
                 return value?.Name;
             }
         }
 
-		[AttributeLogicalName("ldv_regardingname")]
+		[AttributeLogicalName("ys_regardingname")]
 		public string RegardingName
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_regardingname");
+				var value = GetAttributeValue<string>("ys_regardingname");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_regardingname", value);
+                SetAttributeValue("ys_regardingname", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_regardingtype")]
+		[AttributeLogicalName("ys_regardingtype")]
 		public string RegardingType
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_regardingtype");
+				var value = GetAttributeValue<string>("ys_regardingtype");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_regardingtype", value);
+                SetAttributeValue("ys_regardingtype", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_stacktrace")]
+		[AttributeLogicalName("ys_stacktrace")]
 		public string StackTrace
 		{
 			get
 			{
-				var value = GetAttributeValue<string>("ldv_stacktrace");
+				var value = GetAttributeValue<string>("ys_stacktrace");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_stacktrace", value);
+                SetAttributeValue("ys_stacktrace", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_startdate")]
+		[AttributeLogicalName("ys_startdate")]
 		public DateTime? EntryDate
 		{
 			get
 			{
-				var value = GetAttributeValue<DateTime?>("ldv_startdate");
+				var value = GetAttributeValue<DateTime?>("ys_startdate");
 			    return value;
 			}
 			set
 			{
-                SetAttributeValue("ldv_startdate", value);
+                SetAttributeValue("ys_startdate", value);
 			}
 		}
 
-		[AttributeLogicalName("ldv_user")]
+		[AttributeLogicalName("ys_user")]
 		public Guid? User
 		{
 			get
 			{
-				var value = GetAttributeValue<EntityReference>("ldv_user");
+				var value = GetAttributeValue<EntityReference>("ys_user");
                 return value?.Id;
 			}
 			set
 			{
-                if (value != null) SetAttributeValue("ldv_user", new EntityReference("systemuser", value.Value));
+                if (value != null) SetAttributeValue("ys_user", new EntityReference("systemuser", value.Value));
                 else
-	                SetAttributeValue("ldv_user", value);
+	                SetAttributeValue("ys_user", value);
 			}
 		}
 
@@ -3878,367 +3391,22 @@ namespace Yagasoft.CrmLogger.Plugins
         {
 		    get
 		    {
-				var value = GetAttributeValue<EntityReference>("ldv_user");
+				var value = GetAttributeValue<EntityReference>("ys_user");
                 return value?.Name;
             }
         }
-
-        /// <summary>
-        ///  
-		/// 'ModifiedBy'.<br />
-        /// Unique identifier of the user who modified the record.
-        /// </summary>
-		[AttributeLogicalName("modifiedby")]
-		public Guid? ModifiedBy
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("modifiedby");
-                return value?.Id;
-			}
-		}
-
-        public string ModifiedByName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("modifiedby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'ModifiedOn'.<br />
-        /// Date and time when the record was modified.
-        /// </summary>
-		[AttributeLogicalName("modifiedon")]
-		public DateTime? ModifiedOn
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("modifiedon");
-			    return value;
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'ModifiedOnBehalfBy'.<br />
-        /// Unique identifier of the delegate user who modified the record.
-        /// </summary>
-		[AttributeLogicalName("modifiedonbehalfby")]
-		public Guid? ModifiedByDelegate
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("modifiedonbehalfby");
-                return value?.Id;
-			}
-		}
-
-        public string ModifiedByDelegateName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("modifiedonbehalfby");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OverriddenCreatedOn'.<br />
-        /// Date and time that the record was migrated.
-        /// </summary>
-		[AttributeLogicalName("overriddencreatedon")]
-		public DateTime? RecordCreatedOn
-		{
-			get
-			{
-				var value = GetAttributeValue<DateTime?>("overriddencreatedon");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("overriddencreatedon", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'OwnerId'.<br />
-        /// Owner Id
-        /// </summary>
-		[AttributeLogicalName("ownerid")]
-		public EntityReference Owner
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("ownerid");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("ownerid", value);
-			}
-		}
-
-        public string OwnerName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("ownerid");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OwningBusinessUnit'.<br />
-        /// Unique identifier for the business unit that owns the record
-        /// </summary>
-		[AttributeLogicalName("owningbusinessunit")]
-		public Guid? OwningBusinessUnit
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("owningbusinessunit");
-                return value?.Id;
-			}
-		}
-
-        public string OwningBusinessUnitName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("owningbusinessunit");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OwningTeam'.<br />
-        /// Unique identifier for the team that owns the record.
-        /// </summary>
-		[AttributeLogicalName("owningteam")]
-		public Guid? OwningTeam
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("owningteam");
-                return value?.Id;
-			}
-		}
-
-        public string OwningTeamName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("owningteam");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'OwningUser'.<br />
-        /// Unique identifier for the user that owns the record.
-        /// </summary>
-		[AttributeLogicalName("owninguser")]
-		public Guid? OwningUser
-		{
-			get
-			{
-				var value = GetAttributeValue<EntityReference>("owninguser");
-                return value?.Id;
-			}
-		}
-
-        public string OwningUserName
-        {
-		    get
-		    {
-				var value = GetAttributeValue<EntityReference>("owninguser");
-                return value?.Name;
-            }
-        }
-
-        /// <summary>
-        ///  
-		/// 'statecode'.<br />
-        /// Status of the Log Entry
-        /// </summary>
-		[AttributeLogicalName("statecode")]
-		public StatusEnum? Status
-		{
-			get
-			{
-				var value = GetAttributeValue<OptionSetValue>("statecode");
-				return (StatusEnum?)value?.Value;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("statecode", new OptionSetValue((int) value.Value));
-                else
-	                SetAttributeValue("statecode", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'statuscode'.<br />
-        /// Reason for the status of the Log Entry
-        /// </summary>
-		[AttributeLogicalName("statuscode")]
-		public StatusReasonEnum? StatusReason
-		{
-			get
-			{
-				var value = GetAttributeValue<OptionSetValue>("statuscode");
-				return (StatusReasonEnum?)value?.Value;
-			}
-			set
-			{
-                if (value != null) SetAttributeValue("statuscode", new OptionSetValue((int) value.Value));
-                else
-	                SetAttributeValue("statuscode", value);
-			}
-		}
-
-        /// <summary>
-        /// [Range(-1, 2147483647)] 
-		/// 'TimeZoneRuleVersionNumber'.<br />
-        /// For internal use only.
-        /// </summary>
-		[AttributeLogicalName("timezoneruleversionnumber")]
-		public int? TimeZoneRuleVersionNumber
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("timezoneruleversionnumber");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("timezoneruleversionnumber", value);
-			}
-		}
-
-        /// <summary>
-        /// [Range(-1, 2147483647)] 
-		/// 'UTCConversionTimeZoneCode'.<br />
-        /// Time zone code that was in use when the record was created.
-        /// </summary>
-		[AttributeLogicalName("utcconversiontimezonecode")]
-		public int? UTCConversionTimeZoneCode
-		{
-			get
-			{
-				var value = GetAttributeValue<int?>("utcconversiontimezonecode");
-			    return value;
-			}
-			set
-			{
-                SetAttributeValue("utcconversiontimezonecode", value);
-			}
-		}
-
-        /// <summary>
-        ///  
-		/// 'VersionNumber'.<br />
-        /// Version Number
-        /// </summary>
-		[AttributeLogicalName("versionnumber")]
-		public long? VersionNumber
-		{
-			get
-			{
-				var value = GetAttributeValue<long?>("versionnumber");
-			    return value;
-			}
-		}
 
 		#endregion
 
 		#region Relationships
 
 		
-		/// <summary>
-		/// 1:N, 'ldv_ldv_logentry_ldv_log_ExceptionLogEntry'
-		/// </summary>
-		[RelationshipSchemaName("ldv_ldv_logentry_ldv_log_ExceptionLogEntry")]
-		public Log[] LogsOfExceptionLogEntry
-		{
-			get => GetRelatedEntities<Log>("ldv_ldv_logentry_ldv_log_ExceptionLogEntry", null)?.ToArray();
-			set
-			{
-				if (RelatedEntities.IsReadOnly) { throw new Exception("Relationship collection is read only. The context that loaded this entity must be used to create relationships."); }
-                value?.ToList().ForEach(entity => entity.LogicalName = (string) value.First().GetType().GetField("EntityLogicalName").GetRawConstantValue());
-				SetRelatedEntities("ldv_ldv_logentry_ldv_log_ExceptionLogEntry", null, value);
-			}
-		}
-		
-		/// <summary>
-		/// 1:N, 'ldv_ldv_logentry_ldv_logentry'
-		/// </summary>
-		[RelationshipSchemaName("ldv_ldv_logentry_ldv_logentry", Microsoft.Xrm.Sdk.EntityRole.Referenced)]
-		public LogEntry[] LogEntrysOfParentLogEntry
-		{
-			get => GetRelatedEntities<LogEntry>("ldv_ldv_logentry_ldv_logentry", Microsoft.Xrm.Sdk.EntityRole.Referenced)?.ToArray();
-			set
-			{
-				if (RelatedEntities.IsReadOnly) { throw new Exception("Relationship collection is read only. The context that loaded this entity must be used to create relationships."); }
-                value?.ToList().ForEach(entity => entity.LogicalName = (string) value.First().GetType().GetField("EntityLogicalName").GetRawConstantValue());
-				SetRelatedEntities("ldv_ldv_logentry_ldv_logentry", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
-			}
-		}
-		
-		/// <summary>
-		/// N:1, 'ldv_ldv_log_ldv_logentry'
-		/// </summary>
-		[RelationshipSchemaName("ldv_ldv_log_ldv_logentry"), AttributeLogicalName("ldv_parentlogid")]
-		public Log LogAsParentLog
-		{
-			get => GetRelatedEntity<Log>("ldv_ldv_log_ldv_logentry", null);
-			set
-			{
-				if (RelatedEntities.IsReadOnly) { throw new Exception("Relationship collection is read only. The context that loaded this entity must be used to create relationships."); }
-                if (value != null) value.LogicalName = (string) value.GetType().GetField("EntityLogicalName").GetRawConstantValue();
-				SetRelatedEntity<Log>("ldv_ldv_log_ldv_logentry", null, value);
-			}
-		}
-		
-		/// <summary>
-		/// N:1, 'ldv_ldv_logentry_ldv_logentry'
-		/// </summary>
-		[RelationshipSchemaName("ldv_ldv_logentry_ldv_logentry", Microsoft.Xrm.Sdk.EntityRole.Referencing), AttributeLogicalName("ldv_parentlogentryid")]
-		public LogEntry LogEntryAsParentLogEntry
-		{
-			get => GetRelatedEntity<LogEntry>("ldv_ldv_logentry_ldv_logentry", Microsoft.Xrm.Sdk.EntityRole.Referencing);
-			set
-			{
-				if (RelatedEntities.IsReadOnly) { throw new Exception("Relationship collection is read only. The context that loaded this entity must be used to create relationships."); }
-                if (value != null) value.LogicalName = (string) value.GetType().GetField("EntityLogicalName").GetRawConstantValue();
-				SetRelatedEntity<LogEntry>("ldv_ldv_logentry_ldv_logentry", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
-			}
-		}
-		
 		public static class RelationNames {
-			public static RelationName LogsOfExceptionLogEntry = new RelationName("LogsOfExceptionLogEntry");
-			public static RelationName LogEntrysOfParentLogEntry = new RelationName("LogEntrysOfParentLogEntry");
-			public static RelationName LogAsParentLog = new RelationName("LogAsParentLog");
-			public static RelationName LogEntryAsParentLogEntry = new RelationName("LogEntryAsParentLogEntry");
 		}
 
 		public override IDictionary<string, object[]> RelationProperties { get {
 			if (relationProperties != null) return relationProperties;
 			relationProperties = new Dictionary<string, object[]>();
-			relationProperties["LogsOfExceptionLogEntry"] = new object[] { "LogsOfExceptionLogEntry", "ldv_log", "ldv_logentry", "ldv_exceptionlogentry", "ldv_logentryid", "ldv_logentryid", "ldv_logentryid", "ldv_ldv_logentry_ldv_log_ExceptionLogEntry", typeof (Log[]) };
-			relationProperties["LogEntrysOfParentLogEntry"] = new object[] { "LogEntrysOfParentLogEntry", "ldv_logentry", "ldv_logentry", "ldv_parentlogentryid", "ldv_logentryid", "ldv_logentryid", "ldv_logentryid", "ldv_ldv_logentry_ldv_logentry", typeof (LogEntry[]) };
-			relationProperties["LogAsParentLog"] = new object[] { "LogAsParentLog", "ldv_log", "ldv_logentry", "ldv_logid", "ldv_parentlogid", "ldv_logentryid", "ldv_logentryid", "ldv_ldv_log_ldv_logentry", typeof (Log) };
-			relationProperties["LogEntryAsParentLogEntry"] = new object[] { "LogEntryAsParentLogEntry", "ldv_logentry", "ldv_logentry", "ldv_logentryid", "ldv_parentlogentryid", "ldv_logentryid", "ldv_logentryid", "ldv_ldv_logentry_ldv_logentry", typeof (LogEntry) };
 			return relationProperties; } }
 
 		#endregion
@@ -4252,7 +3420,7 @@ namespace Yagasoft.CrmLogger.Plugins
                 if (p.PropertyType == typeof(Guid))
                 {
                     base.Id = (Guid)value;
-                    Attributes["ldv_logentryid"] = base.Id;
+                    Attributes["ys_logentryid"] = base.Id;
                 }
                 else if (p.Name == "FormattedValues")
                 {
@@ -4280,18 +3448,6 @@ namespace Yagasoft.CrmLogger.Plugins
 			Warning = 20,
 			Info = 30,
 			Debug = 40,
-		}
-	
-		public enum StatusEnum
-		{
-			Active = 0,
-			Inactive = 1,
-		}
-	
-		public enum StatusReasonEnum
-		{
-			Active = 1,
-			Inactive = 2,
 		}
 	
 		#endregion
